@@ -21,7 +21,6 @@ NumArray.prototype.sumRange = function(left, right) {
         l = this.prefix[left - 1];
     }
     r = this.prefix[right]
-    console.log(l, r);
     return  r - l;
 };
 
