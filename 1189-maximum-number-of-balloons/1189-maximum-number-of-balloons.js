@@ -18,7 +18,7 @@ var maxNumberOfBalloons = function(text) {
         }
     }
     
-    const ans = Math.min.apply(Math, filtered);
+    const ans = Math.min(...filtered);
     
     return ans;
         
