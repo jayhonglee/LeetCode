@@ -19,7 +19,7 @@ var equalPairs = function(grid) {
     }
     
     let ans = 0;
-    console.log(rowMap, colMap);
+    
     rowMap.forEach((value, key) => {
         if(colMap.has(key)) {
             ans += value * colMap.get(key);
