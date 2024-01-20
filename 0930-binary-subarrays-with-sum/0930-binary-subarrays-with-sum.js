@@ -8,7 +8,7 @@ var numSubarraysWithSum = function(nums, goal) {
     
     for(const num of nums) {
         curr += num;
-        console.log(curr - goal, hashmap.get(curr - goal));
+        
         if(hashmap.has(curr - goal)) {
             ans += hashmap.get(curr - goal);
         }
