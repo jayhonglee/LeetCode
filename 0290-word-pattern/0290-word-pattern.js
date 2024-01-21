@@ -8,18 +8,14 @@ var wordPattern = function(pattern, s) {
         let hashmap = new Map(), final = "", i = 0;
         
         for(const char of string) {
-            if(hashmap.has(char)) {
-                final += ` ${hashmap.get(char)}`;
-            } else {
+            if(!hashmap.has(char)) {
                 i++;
                 hashmap.set(char, i);
-                final += ` ${hashmap.get(char)}`;
             }
+                final += ` ${hashmap.get(char)}`;
         }
         return final
     }
-    
-    console.log(applyStyle(pattern), applyStyle(s.split(" ")))
-    
+        
     return applyStyle(pattern) === applyStyle(s.split(" "))
 };
