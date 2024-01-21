@@ -35,8 +35,8 @@ var checkInclusion = function(s1, s2) {
             hashmapS2.set(s2[i + j], (hashmapS2.get(s2[i + j]) || 0) + 1)
         }
         
-        if(checkMapEqual(hashmapS1, hashmapS2)) ans = true;
+        if(checkMapEqual(hashmapS1, hashmapS2)) return true;
     }
     
-    return ans;
+    return false;
 };
