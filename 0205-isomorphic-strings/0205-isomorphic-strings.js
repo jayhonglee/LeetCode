@@ -16,7 +16,6 @@ var isIsomorphic = function(s, t) {
             finalStr += (` ${hashmap.get(char)}`);
         }
         
-        console.log(finalStr);
         return finalStr;
     }
     
