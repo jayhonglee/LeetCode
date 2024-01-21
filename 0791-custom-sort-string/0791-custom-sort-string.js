@@ -34,7 +34,6 @@ var customSortString = function(order, s) {
         for(let i = 0; i < pair[1][1]; i++) {
             ans += (pair[0])            
         }
-        console.log(pair[0], ans);
     });
     
     return ans;
