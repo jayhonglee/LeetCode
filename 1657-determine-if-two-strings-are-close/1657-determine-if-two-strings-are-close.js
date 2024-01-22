@@ -14,11 +14,7 @@ var closeStrings = function(word1, word2) {
     }
     
     let ans = true;
-    
-    console.log([...createHashmap(word1)].map(x=> x[1]).join(" ") === [...createHashmap(word2)].map(x=>x[1]).join(" ") && createHashmap(word1).size === createHashmap(word2).size)
-    
-   console.log(createHashmap(word1), createHashmap(word2));
-    
+        
     return [...createHashmap(word1)].map(x=> x[1]).sort().join(" ") === [...createHashmap(word2)].map(x=>x[1]).sort().join(" ") && createHashmap(word1).size === createHashmap(word2).size && [...createHashmap(word1)].map(x=> x[0]).sort().join(" ") === [...createHashmap(word2)].map(x=>x[0]).sort().join(" ");
         
 };
