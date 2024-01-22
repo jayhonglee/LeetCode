@@ -14,7 +14,10 @@ var closeStrings = function(word1, word2) {
     }
     
     let ans = true;
+    
+    const word1HashmapArray = [...createHashmap(word1)];
+    const word2HashmapArray = [...createHashmap(word2)];
         
-    return [...createHashmap(word1)].map(x=> x[1]).sort().join(" ") === [...createHashmap(word2)].map(x=>x[1]).sort().join(" ") && createHashmap(word1).size === createHashmap(word2).size && [...createHashmap(word1)].map(x=> x[0]).sort().join(" ") === [...createHashmap(word2)].map(x=>x[0]).sort().join(" ");
+    return word1HashmapArray.map(x=> x[1]).sort().join(" ") === word2HashmapArray.map(x=>x[1]).sort().join(" ") && word1HashmapArray.map(x=> x[0]).sort().join(" ") === word2HashmapArray.map(x=>x[0]).sort().join(" ");
         
 };
