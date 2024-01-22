@@ -21,7 +21,10 @@ var closeStrings = function(word1, word2) {
     
     const word1HashmapArray = [...createHashmap(word1)];
     const word2HashmapArray = [...createHashmap(word2)];
+    
+    const isFrequencyEqual = sortAndJoin(word1HashmapArray,1) === sortAndJoin(word2HashmapArray,1);
+    const isCharactersEqual = sortAndJoin(word1HashmapArray,0) === sortAndJoin(word2HashmapArray,0);
         
-    return sortAndJoin(word1HashmapArray,1) === sortAndJoin(word2HashmapArray,1) && sortAndJoin(word1HashmapArray,0) === sortAndJoin(word2HashmapArray,0);
+    return  isFrequencyEqual && isCharactersEqual;
         
 };
