@@ -16,9 +16,7 @@ var closeStrings = function(word1, word2) {
     function sortAndJoin (array, i) {
         return array.map(x=> x[i]).sort().join(" ");
     }
-    
-    let ans = true;
-    
+        
     const word1HashmapArray = [...createHashmap(word1)];
     const word2HashmapArray = [...createHashmap(word2)];
     
