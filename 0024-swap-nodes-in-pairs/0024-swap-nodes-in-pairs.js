@@ -30,10 +30,10 @@ var swapPairs = function(head) {
         prev = head;
         
         let BNext = head.next.next;
+        
         head.next.next = head;
         head.next = BNext;
         head = BNext;
-        console.log(dummy);
     }
     
     return dummy;
