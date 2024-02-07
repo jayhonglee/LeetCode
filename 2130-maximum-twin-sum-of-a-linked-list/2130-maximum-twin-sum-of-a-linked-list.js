@@ -37,12 +37,10 @@ var pairSum = function(head) {
     let newSlow = head;
     let max = 0;
     while(fast) {
-        console.log(newSlow.val, fast.val);
         max = Math.max(newSlow.val + fast.val, max);
         newSlow = newSlow.next;
         fast = fast.next;
     }
     
-    console.log(max);
     return max;
 };
