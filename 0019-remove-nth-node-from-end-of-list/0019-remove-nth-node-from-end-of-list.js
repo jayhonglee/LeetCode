@@ -11,24 +11,26 @@
  * @return {ListNode}
  */
 var removeNthFromEnd = function(head, n) {
-    let slow = head;
-    let fast = head;
+//  set delay     
+    let delayCounter = 0, fast = head, slow = head, prev = null;
     
-    for(let i = 0; i < n; i++) {
-        fast = fast.next;
-    }
+    if(!head.next) {
+        return head.next;
+    } 
     
-    if(!fast) {
-        head = head.next;
-    }
-    
+//  fast starts and slow starts after delay counter equals the delay
     while(fast) {
-        fast = fast.next;
-        if(!fast) {
-            slow.next = slow.next.next;
+        if(delayCounter >= n) {
+            prev = slow;
+            slow = slow.next;
         }
-        slow = slow.next;
+        fast = fast.next;
+        delayCounter++;
     }
     
+    if(prev === null) {
+        return head = head.next;
+    }
+    prev.next = slow.next;
     return head;
 };
