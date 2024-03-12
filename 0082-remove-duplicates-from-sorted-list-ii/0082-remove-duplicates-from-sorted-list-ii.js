@@ -10,15 +10,13 @@
  * @return {ListNode}
  */
 var deleteDuplicates = function(head) {
-    let hashmap = new Map(), ptr = head;
+    let hashmap = new Map(), ptr = head, prev = null;
     
     while(ptr) {
         hashmap.set(ptr.val, hashmap.has(ptr.val) ? hashmap.get(ptr.val) + 1 : 1);
         ptr = ptr.next;
     }
-    
     ptr = head;
-    let prev = null;
     
     while(ptr) {
         if(hashmap.get(ptr.val) > 1) {
@@ -31,10 +29,7 @@ var deleteDuplicates = function(head) {
             prev = ptr;
         }
         ptr = ptr.next;
-        console.log(head);
-    }
-    
-    console.log(hashmap);
+    }    
     
     return head;
 };
