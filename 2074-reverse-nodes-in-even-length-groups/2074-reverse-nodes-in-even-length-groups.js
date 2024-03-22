@@ -55,16 +55,10 @@ var reverseEvenLengthGroups = function(head) {
                     }     
                 } else {
                     for(let i = 0; i < groupNumber; i++) {
-                        
                             dummy = dummy.next;
-                        
-                        
                     }
                     for(let i = 0; i < groupNumber - 1; i++) {
-                        
                             dum = dum.next;
-                        
-                        
                     }                    
                 }
 
@@ -90,7 +84,6 @@ var reverseEvenLengthGroups = function(head) {
             ptr = ptr.next;
         }
         
-
         if(groupNumber === groupElement) {
             groupNumber++;
             groupElement = 1;
@@ -99,6 +92,5 @@ var reverseEvenLengthGroups = function(head) {
         }
     }
     
-    console.log('hi');
     return head;
 };
