@@ -10,37 +10,22 @@
  * @return {number}
  */
 var pairSum = function(head) {
-//     Find the half point
-    let slow = head;
-    let fast = head.next;
+    let ptr = head, arr = [], max = -1;
     
-    while(fast && fast.next) {
-        fast = fast.next.next;
-        slow = slow.next;
+    // go over the linked list and create an array
+    while(ptr) {
+        arr.push(ptr.val);
+        ptr = ptr.next;
     }
     
-//     Reverse the second half
-    let next = slow.next;
-    let prev = null;
-    
-    slow.next = fast;
-    slow = next;
-    
-    while(slow) {
-        next = slow.next;
-        slow.next = prev;
-        prev = slow;
-        slow = next;
-    }
-
-//     Create another pointer to add and store max
-    let newSlow = head;
-    let max = 0;
-    while(fast) {
-        max = Math.max(newSlow.val + fast.val, max);
-        newSlow = newSlow.next;
-        fast = fast.next;
+    // using the first and last ptrs of the array store the max
+    let i = 0, j = arr.length - 1;
+    while(i < j) {
+        max = Math.max(max, arr[i] + arr[j]);
+        i++;
+        j--;
     }
     
+    // return
     return max;
 };
