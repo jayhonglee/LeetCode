@@ -20,8 +20,8 @@ var getDecimalValue = function(head) {
         prev = head;
         head = temp;
     }
-    
     head = prev;
+    
 //     loop over the linked list
     while(head) {
 //     on every iteration using index counter variable add value
