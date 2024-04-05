@@ -4,13 +4,12 @@
  */
 var simplifyPath = function(path) {
 //  Declare variables
-    let stack = [], split, ans;
+    let stack = [];
     
-//  Split path by /
-    split = path.split("/");
+//  Split path by / (done in the for loop condition)
     
 //  Loop over the split and if its not . or .. put it in stack
-    for(const x of split) {
+    for(const x of path.split("/")) {
         if(x === "..") {
             stack.pop();
         } else {
@@ -22,6 +21,5 @@ var simplifyPath = function(path) {
 
     
 //  start with / and no / at the end
-    ans = stack.join("/");
-    return "/" + ans;
+    return "/" + stack.join("/");
 };
