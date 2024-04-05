@@ -7,7 +7,6 @@ var simplifyPath = function(path) {
     let stack = [];
     
 //  Split path by / (done in the for loop condition)
-    
 //  Loop over the split and if its not . or .. put it in stack
     for(const x of path.split("/")) {
         if(x === "..") {
