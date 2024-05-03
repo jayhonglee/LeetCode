@@ -11,7 +11,7 @@ var maxSlidingWindow = function(nums, k) {
     for(let i = 0; i < nums.length; i++) {
         
 //          if the current num is bigger than the queue[0] empty the queue
-        while(queue && nums[i] > nums[queue[queue.length - 1]]) {
+        while(queue.length && nums[i] > nums[queue[queue.length - 1]]) {
             queue.pop();
         }
 //          enqueue current num to the queue
