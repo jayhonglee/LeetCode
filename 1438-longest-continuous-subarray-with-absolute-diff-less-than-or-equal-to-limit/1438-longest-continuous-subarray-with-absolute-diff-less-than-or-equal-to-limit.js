@@ -22,8 +22,8 @@ var longestSubarray = function(nums, limit) {
     increasing.push(nums[right]);
     decreasing.push(nums[right]);
         
-        // maintain window property
-        while (decreasing[0] - increasing[0] > limit) {
+    // maintain window property
+    while (decreasing[0] - increasing[0] > limit) {
             if (nums[left] == decreasing[0]) {
                 decreasing.shift();
             }
@@ -31,7 +31,7 @@ var longestSubarray = function(nums, limit) {
                 increasing.shift();
             }
             left++;
-        }
+    }
         
         ans = Math.max(ans, right - left + 1);
     }
