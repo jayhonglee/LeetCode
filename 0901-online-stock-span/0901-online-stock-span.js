@@ -10,7 +10,9 @@ var StockSpanner = function() {
  */
 StockSpanner.prototype.next = function(price) {
     let value = 1;
+    
 //     check if the previous element is smaller
+//     if smaller, add current value + the hashmapped value of that and pop that element, and repeat
     while(this.stack[this.stack.length - 1] <= price) {
         value += this.hashmap.get(this.stack[this.stack.length - 1])
         this.stack.pop();
@@ -20,8 +22,6 @@ StockSpanner.prototype.next = function(price) {
     this.stack.push(price);
 
     return value;
-//     if smaller, add 1 + the hashmapped value of that and pop that element, and check if the peak element is bigger or smaller and add current value
-
 };
 
 /** 
