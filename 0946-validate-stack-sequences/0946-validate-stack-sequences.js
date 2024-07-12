@@ -11,7 +11,7 @@ var validateStackSequences = function(pushed, popped) {
 //     for each element, push to the stack and check if its same as the first element of the popped array. If it is the same, pop the stack and remove the first element of the popped array. Then check again. If it is not the same continue.
     for(const x of pushed) {
         stack.push(x);
-        while(popped[y] !== undefined && stack[stack.length - 1] === popped[y]) {
+        while(stack.length && stack[stack.length - 1] === popped[y]) {
             stack.pop();
             y++;
         }
