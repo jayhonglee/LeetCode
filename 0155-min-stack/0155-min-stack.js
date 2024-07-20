@@ -12,7 +12,6 @@ MinStack.prototype.push = function(val) {
         val,
         min: this.stack.length === 0 ? val : Math.min(this.stack[this.stack.length - 1].min, val)
     });
-    console.log(this.stack)
 };
 
 /**
