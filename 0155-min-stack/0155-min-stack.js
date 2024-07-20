@@ -8,9 +8,11 @@ var MinStack = function() {
  * @return {void}
  */
 MinStack.prototype.push = function(val) {
-    this.stack.push({
+    const stack = this.stack;
+    
+    stack.push({
         val,
-        min: this.stack.length === 0 ? val : Math.min(this.stack[this.stack.length - 1].min, val)
+        min: stack.length === 0 ? val : Math.min(stack[stack.length - 1].min, val)
     });
 };
 
@@ -25,14 +27,16 @@ MinStack.prototype.pop = function() {
  * @return {number}
  */
 MinStack.prototype.top = function() {
-    return this.stack[this.stack.length - 1].val;
+    const stack = this.stack;
+    return stack[stack.length - 1].val;
 };
 
 /**
  * @return {number}
  */
 MinStack.prototype.getMin = function() {
-    return this.stack[this.stack.length - 1].min;
+    const stack = this.stack;
+    return stack[stack.length - 1].min;
 };
 
 /** 
