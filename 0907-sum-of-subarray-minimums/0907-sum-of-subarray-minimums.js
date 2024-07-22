@@ -23,7 +23,6 @@ var sumSubarrayMins = function(arr) {
         //     Push to the stack
         stack.push([i, arr[i]])
     }
-    console.log(result);
     
 //     Iterate over the remaining stack (monotonically increasing) from left to right.
 //     For each number find the total number of contiguous arrays.
