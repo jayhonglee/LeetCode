@@ -30,7 +30,6 @@ var rightSideView = function(root) {
 
         queue = nextQueue;
     }
-
     
     return ans;
 };
