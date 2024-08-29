@@ -10,20 +10,15 @@ var maxAreaOfIsland = function(grid) {
     }
     
     const dfs = (row, column) => {
+        if(row >= grid.length || row < 0 || column >= grid[0].length || column < 0 || grid[row][column] === 0 || set.has(format(row, column))) return 0;
+        
         let size = 1;
         set.add(format(row, column));
         
         const directions = [[0, +1], [0, -1], [+1, 0], [-1, 0]];
         for(const [x, y] of directions) {
             const newRow = row + x, newColumn = column + y;
-            if(newRow < grid.length && 
-               newRow >= 0 &&
-               newColumn < grid[0].length && 
-               newColumn >= 0 &&
-               grid[newRow][newColumn] === 1 && 
-               !set.has(format(newRow, newColumn))) {
-                size += dfs(newRow, newColumn);
-            }
+            size += dfs(newRow, newColumn);
         }
         
         return size;
