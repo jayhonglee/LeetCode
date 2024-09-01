@@ -19,7 +19,6 @@ var distanceK = function(root, target, k) {
         dfs(node.left, node);
         dfs(node.right, node);
     }
-    
     dfs(root, root);
     
     let queue = [target], nextQueue = [], l=0, ans = [], seen = new Set();
