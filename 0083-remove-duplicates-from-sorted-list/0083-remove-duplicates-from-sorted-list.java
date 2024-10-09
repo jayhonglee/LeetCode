@@ -10,10 +10,10 @@
  */
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
+        if(head == null) return null;
+        
         Set<Integer> set = new HashSet();
         ListNode slow = head, fast = head;
-        
-        if(head == null) return null;
         
         set.add(fast.val);
         fast = fast.next;
