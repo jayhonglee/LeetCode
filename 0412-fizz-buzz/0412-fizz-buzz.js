@@ -6,7 +6,6 @@ var fizzBuzz = function(n) {
     const ans = [];
     
     for(let i = 1; i < n + 1; i++) {
-        const byFifteen = i % 15 == 0;
         const byThree = i % 3 == 0;
         const byFive = i % 5 == 0;
         
