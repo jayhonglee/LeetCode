@@ -12,10 +12,6 @@ class Solution {
         }
         
 //         Return the element from the heap
-        // for(int i = 0; i < k - 1; i++) {
-        //     heap.remove();
-        // }
-        
         return heap.poll();
     }
 }
