@@ -14,7 +14,6 @@ var partitionArray = function(nums, k) {
 //     Loop over and if diff goes over k, add + 1 to ans
     for(const num of nums) {
         if(Math.abs(num - x) > k) {
-            console.log(Math.abs(num - x), num, x, ans);
             ans++;
             x = num;
         }
