@@ -6,8 +6,7 @@ class Solution {
     public int[][] kClosest(int[][] points, int k) {
 //         Define a min heap
         PriorityQueue<int[]> heap = new PriorityQueue<>((n1, n2) -> {
-            if(getDistance(n1) > getDistance(n2)) return -1;
-            else return 1;
+            return Double.compare(getDistance(n2), getDistance(n1));
         });
         
 //         Loop over points and push it into heap
