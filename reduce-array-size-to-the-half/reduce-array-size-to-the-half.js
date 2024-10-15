@@ -12,12 +12,7 @@ var minSetSize = function(arr) {
         hashmap.set(x, (hashmap.get(x) || 0) + 1);
     }
     
-    let temp = [];
-    for(let x of hashmap.values()) {
-        temp.push(x);
-    }
-    
-    for(let x of temp.sort((a,b) => b - a)) {
+    for(let x of Array.from(hashmap.values()).sort((a,b) => b - a)) {
         ans++;
         curr -= x;
         
