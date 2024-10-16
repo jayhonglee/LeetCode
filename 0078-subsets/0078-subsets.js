@@ -5,11 +5,7 @@
 var subsets = function(nums) {
     let ans = [];
     
-    const backtrack = (curr, newIndex) => {
-        if (newIndex > nums.length) {
-            return;
-        }
-        
+    const backtrack = (curr, newIndex) => {        
         ans.push([...curr]);
         
         for(let i = newIndex; i < nums.length; i++) {
