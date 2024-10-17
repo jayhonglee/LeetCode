@@ -10,7 +10,7 @@ var combinationSum = function(candidates, target) {
         if(sum === target) return ans.push([...curr]);
         
         for(let i = start; i < candidates.length; i++) {
-            if(sum <= target) {
+            if(sum < target) {
                 curr.push(candidates[i]);
                 backtrack(curr, sum + candidates[i], i);
                 curr.pop();
