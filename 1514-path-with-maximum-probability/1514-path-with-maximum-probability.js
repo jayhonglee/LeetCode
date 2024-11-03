@@ -36,7 +36,7 @@ var maxProbability = function(n, edges, succProb, start_node, end_node) {
         if (graph.has(node)) {
             for (const [neighbor, edgeProb] of graph.get(node)) {
                 const newProb = prob * edgeProb;
-                
+                     
                 if (newProb > bestProbabilities[neighbor]) {
                     bestProbabilities[neighbor] = newProb;
                     maxHeap.enqueue([neighbor, newProb]);
