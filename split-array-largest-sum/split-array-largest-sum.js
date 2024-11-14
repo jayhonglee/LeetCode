@@ -19,7 +19,6 @@ var splitArray = function(nums, k) {
                 total = num;
                 pieces++;
             } else total += num;
-            console.log(total, pieces, mid);
         }
         
         if(pieces > k) left = mid + 1;
