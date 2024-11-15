@@ -1,18 +1,15 @@
 class Solution {
     public int findKthLargest(int[] nums, int k) {
-//         Define a min heap
-        PriorityQueue<Integer> heap = new PriorityQueue<>(Comparator.reverseOrder());
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+        int ans = 0;
         
-//         Loop over the array and add each number
-        for(int num: nums) {
-            heap.add(num);
+        for(int i = 0; i < nums.length; i++) {
+            pq.add(nums[i]);
+        }
+        for(int i = 0; i < k; i++) {
+            ans = pq.poll();
         }
         
-//         Return the element from the heap
-        for(int i = 0; i < k - 1; i++) {
-            heap.remove();
-        }
-        
-        return heap.poll();
+        return ans;
     }
 }
