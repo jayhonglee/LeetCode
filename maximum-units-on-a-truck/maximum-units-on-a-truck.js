@@ -4,21 +4,16 @@
  * @return {number}
  */
 var maximumUnits = function(boxTypes, truckSize) {
-    boxTypes.sort((boxA, boxB) => {
-        return boxB[1] - boxA[1];
-    })
+    const sorted = boxTypes.sort((a,b)=>b[1]-a[1]);
+    let total = 0;
     
-    let i = 0, ans = 0;
-    while(truckSize > 0 && i < boxTypes.length) {
-        if(boxTypes[i][0] === 0) {
-            i++;
-            continue;
-        }
-        
+    while(truckSize > 0) {
+        if(!sorted.length) break;
+        const first = sorted[0];
+        total += first[1];
+        first[0] - 1 === 0 ? sorted.shift() : first[0]--;
         truckSize--;
-        boxTypes[i][0]--;
-        ans += boxTypes[i][1];
     }
     
-    return ans;
+    return total;
 };
