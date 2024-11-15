@@ -1,28 +1,24 @@
 class Solution {
-    public double getDistance(int[] coor) {
-        return Math.sqrt(Math.pow(coor[0], 2) + Math.pow(coor[1], 2)); 
-    }
-    
     public int[][] kClosest(int[][] points, int k) {
 //         Define a min heap
-        PriorityQueue<int[]> heap = new PriorityQueue<>((n1, n2) -> {
-            return Double.compare(getDistance(n2), getDistance(n1));
+        PriorityQueue<int[]> pq = new PriorityQueue<int[]>((a,b) -> {
+            return (int)(Math.pow(a[0],2)+Math.pow(a[1],2)) - (int)(Math.pow(b[0],2)+Math.pow(b[1],2));
         });
         
-//         Loop over points and push it into heap
-//         If the size goes over k pop
+//         For each point insert it into the min heap
+//         If the size of the heap is bigger than k, remove
         for(int[] point : points) {
-            heap.add(point);
-            if(heap.size() > k) heap.remove();
+            pq.add(point);
         }
         
-//         Return min heap as int[][]
-        int[][] ans = new int[k][2];
-        int index = 0;
-        while(!heap.isEmpty()) {
-            ans[index++] = heap.poll();
+
+//      Convert the priority queue to a 2D array
+        int[][] result = new int[k][2];
+        for (int i = 0; i < k; i++) {
+            result[i] = pq.remove();
         }
         
-        return ans;
+//         Return the min heap
+        return result;
     }
 }
