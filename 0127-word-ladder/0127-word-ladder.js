@@ -22,7 +22,7 @@ var ladderLength = function(beginWord, endWord, wordList) {
         }
     }
 
-    // Build adjacency list using intermediate forms
+// Build adjacency list using intermediate forms
     for (const [genericWord, matchingWords] of intermediateMap.entries()) {
         for (const word of matchingWords) {
             if (!adjacencyList.has(word)) {
@@ -58,3 +58,4 @@ var ladderLength = function(beginWord, endWord, wordList) {
     
     return 0;
 };
+
