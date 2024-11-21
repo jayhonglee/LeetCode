@@ -4,7 +4,7 @@
  */
 var generateParenthesis = function(n) {
     const backtrack = (current) => {
-        if(right > left) return;
+        if(right > left || left > n) return;
         if(current.length === n * 2 && left === right) ans.push(current);
         if(current.length > n * 2) return;
         
