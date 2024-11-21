@@ -5,7 +5,8 @@
 var totalNQueens = function(n) {
 //     Define backtrack function
     const backtrack = (row, col, diagonal, antiDiagonal) => {
-        if(row === n) return ans += 1;
+        let ans = 0;
+        if(row === n) return 1;
         
         for(let i = 0; i < n; i++) {
             const currDiagonal = row - i;
@@ -17,16 +18,16 @@ var totalNQueens = function(n) {
             diagonal.add(currDiagonal);
             antiDiagonal.add(currAntiDiagonal);
             
-            backtrack(row + 1, col, diagonal, antiDiagonal);
+            ans += backtrack(row + 1, col, diagonal, antiDiagonal);
             
             col.delete(i);
             diagonal.delete(currDiagonal);
             antiDiagonal.delete(currAntiDiagonal);
         }
+        
+        return ans;
     }
     
 //     Call backtrack and return ans
-    let ans = 0;
-    backtrack(0, new Set(), new Set(), new Set());
-    return ans;
+    return backtrack(0, new Set(), new Set(), new Set());
 };
