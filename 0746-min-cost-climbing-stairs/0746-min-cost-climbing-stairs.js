@@ -3,17 +3,16 @@
  * @return {number}
  */
 var minCostClimbingStairs = function(cost) {
-    const dp = (i) => {
-        if(i <= 1) return 0;
+    const dp = function(index) {
+        if(index < 2) return 0;
         
-        if(hashmap.has(i)) return hashmap.get(i);
+        if(memo[index] !== -1) return memo[index];
+        memo[index] = Math.min(dp(index - 1) + cost[index - 1], dp(index - 2) + cost[index - 2]);
         
-        const val = Math.min(dp(i - 1) + cost[i - 1], dp(i - 2) + cost[i - 2]); 
-        hashmap.set(i, val)
-        
-        return val;
+        return memo[index];
     }
     
-    const hashmap = new Map();
+    const memo = new Array(cost.length + 1).fill(-1);
+    memo[0] = memo[1] = 0;
     return dp(cost.length);
 };
