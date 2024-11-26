@@ -14,7 +14,6 @@ var maxProduct = function(nums) {
         
         maxSoFar = tempMax;
         ans = Math.max(ans, maxSoFar);
-        console.log(current, minSoFar, maxSoFar, ans);
     }
     
     return ans;
