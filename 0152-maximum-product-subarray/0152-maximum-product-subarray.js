@@ -9,8 +9,8 @@ var maxProduct = function(nums) {
     
     for(let i = 1; i < nums.length; i++) {
         const current = nums[i];
-        let tempMax = Math.max(current, Math.max(maxSoFar * current, minSoFar * current));
-        minSoFar = Math.min(current, Math.min(maxSoFar * current, minSoFar * current));
+        let tempMax = Math.max(current, maxSoFar * current, minSoFar * current);
+        minSoFar = Math.min(current, maxSoFar * current, minSoFar * current);
         
         maxSoFar = tempMax;
         ans = Math.max(ans, maxSoFar);
