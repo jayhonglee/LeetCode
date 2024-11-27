@@ -8,11 +8,10 @@ var threeSum = function(nums) {
     
     for(let i = 0; i < nums.length; i++) {
         const ithNum = nums[i];
+        const target = 0 - ithNum;
         
         if(dup.has(ithNum)) continue;
         dup.add(ithNum);
-        
-        const target = 0 - ithNum;
         
         let seen = new Map();
         for(let j = i + 1; j < nums.length; j++) {
