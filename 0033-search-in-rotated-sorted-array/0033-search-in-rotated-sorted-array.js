@@ -4,6 +4,10 @@
  * @return {number}
  */
 var search = function(nums, target) {
+//  edge case
+    if(nums.length === 1 && nums[0] === target) return 0;
+    
+//  binary search function  
     const binarySearch = function(left, right) {
         while(left <= right) {
             const mid = Math.floor((left + right) / 2);
@@ -16,9 +20,6 @@ var search = function(nums, target) {
 
         return -1;
     }
-    
-//     edge case
-    if(nums.length === 1 && nums[0] === target) return 0;
 
 //     find pivot point
     let pivot = -1;
