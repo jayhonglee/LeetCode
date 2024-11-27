@@ -18,7 +18,7 @@ var search = function(nums, target) {
     }
     
 //     edge case
-    if(nums[0] < nums[nums.length - 1]) return binarySearch(0, nums.length - 1);
+    // if(nums[0] < nums[nums.length - 1]) return binarySearch(0, nums.length - 1);
     if(nums.length === 1 && nums[0] === target) return 0;
 
     // 51234 45123 34512 23451
