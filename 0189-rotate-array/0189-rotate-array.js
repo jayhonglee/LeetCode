@@ -1,24 +1,20 @@
 var rotate = function(nums, k) {
     k %= nums.length;
-    
-    if (k === 0) return;
-    
+
+    if (k === 0) return nums;
+
     let count = 0;
-    let start = 0;
-    
-    while (count < nums.length) {
-        let current = start;
-        let prev = nums[start];
-        
+    for (let start = 0; count < nums.length; start++) {
+        let currentIndex = start;
+        let currentValue = nums[start];
+
         do {
-            const next = (current + k) % nums.length;
-            const temp = nums[next];
-            nums[next] = prev;
-            prev = temp;
-            current = next;
+            const nextIndex = (currentIndex + k) % nums.length;
+            const temp = nums[nextIndex];
+            nums[nextIndex] = currentValue;
+            currentValue = temp;
+            currentIndex = nextIndex;
             count++;
-        } while (current !== start);
-        
-        start++;
+        } while (start !== currentIndex);
     }
 };
