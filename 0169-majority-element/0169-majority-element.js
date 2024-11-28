@@ -15,6 +15,6 @@ var majorityElement = function(nums) {
     const ans = [...hashmap].sort((a,b) => {
         return a[1] - b[1];
     })
-    console.log(ans[ans.length - 1]);
+    
     return ans[ans.length - 1][0];
 };
