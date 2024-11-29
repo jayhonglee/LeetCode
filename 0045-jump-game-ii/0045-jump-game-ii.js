@@ -12,6 +12,5 @@ var jump = function(nums) {
         }
     }
 
-    console.log(memo);
     return memo[0];
 };
