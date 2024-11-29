@@ -20,8 +20,10 @@ var jump = function(nums) {
     let farthest = 0;
     let ans = 0;
     for (let index = 0; index < nums.length - 1; index++) {
+//         farthest at the current index can go
         farthest = Math.max(farthest, index + nums[index]);
         
+//         if we have reached the fathest we could have gone with minimum moves add + 1 step and update currEnd.
         if(index === currEnd) {
             ans++;
             currEnd = farthest;
