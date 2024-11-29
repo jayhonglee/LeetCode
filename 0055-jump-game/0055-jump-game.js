@@ -16,6 +16,6 @@ var canJump = function(nums) {
         return false;
     }
     
-    const memo = new Array(nums.length).fill("unknown");
+    const memo = new Array(nums.length);
     return backtrack(0);
 };
