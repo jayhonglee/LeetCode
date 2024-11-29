@@ -22,7 +22,7 @@ var hIndex = function(citations) {
 //         if(key <= value) return key;
 //     }
     
-//     O(n) attempt:
+//     O(nlogn) attempt:
     citations.sort((a,b) => b - a);
     
     let ans = 0;
