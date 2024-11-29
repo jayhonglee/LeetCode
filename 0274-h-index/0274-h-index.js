@@ -24,12 +24,12 @@ var hIndex = function(citations) {
     
 //     O(nlogn) attempt:
     citations.sort((a,b) => b - a);
-    
+    console.log(citations);
     let ans = 0;
-    for(let i = 0; i <= citations.length - 1; i++) {
+    for(let i = 0; i <= citations.length - 1 && i + 1 <= citations[i]; i++) {
         const curr = citations[i];
         
-        if(i + 1 <= curr) ans = Math.max(ans, i + 1);
+        ans++;
     }
     
     return ans;
