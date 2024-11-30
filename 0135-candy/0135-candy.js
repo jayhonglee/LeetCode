@@ -45,6 +45,7 @@ var candy = function(ratings) {
         } 
     }
     
+    let sum = ans[ans.length - 1];
     for(let i = ratings.length - 2; i >= 0; i--) {
         const current = ratings[i];
         const prev = ratings[i + 1] !== undefined ? ratings[i + 1] : Infinity;
@@ -54,7 +55,8 @@ var candy = function(ratings) {
                 ans[i]++;
             }
         }
+        sum += ans[i];
     }
 
-    return ans.reduce((acc, val) => acc + val);
+    return sum;
 };
