@@ -3,7 +3,7 @@
  * @return {number}
  */
 var candy = function(ratings) {
-//     brute force approach (TLE):
+//     brute force approach O(n^2) (TLE):
 //     let ans = new Array(ratings.length).fill(1);
     
 //     for(let i = 0; i < ratings.length; i++) {
@@ -31,7 +31,7 @@ var candy = function(ratings) {
 
 //     return ans.reduce((acc, val) => acc + val);
     
-//     Optimal:
+//     Optimal O(n):
     let ans = new Array(ratings.length).fill(1);
     
     for(let i = 1; i < ratings.length; i++) {
