@@ -35,12 +35,5 @@ var convert = function(s, numRows) {
         count = (count + 1) % (numRows * 2 - 2);
     }
     
-    // let ans = ""
-    // for(let i = 0; i < numRows; i++) {
-    //     for(let j = 0; j < totalCols; j++) {
-    //         if(matrix[i][j] !== "") ans += matrix[i][j];
-    //     }
-    // }
-    
     return matrix.map((row) => row.join("")).join("");;
 };
