@@ -6,6 +6,8 @@
 var convert = function(s, numRows) {
 //     given a string s convert it to zigzag pattern and return its string
 //     also given number of rows
+    
+//     edge case:
     if(numRows === 1) return s;
     
     let matrix = [];
