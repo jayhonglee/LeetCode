@@ -18,7 +18,7 @@ var reverseWords = function(s) {
             word = "";
         } else if(s[i] !== " ") {
             word += s[i];
-            if(i === right && word.length !== 0) words.push(word);
+            if(i === right) words.push(word);
         }
     }
 
