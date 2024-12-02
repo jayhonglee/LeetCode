@@ -9,8 +9,8 @@ var reverseWords = function(s) {
     let word = "", words = [];
     let left = 0, right = s.length - 1;
     
-    while(left <= right && s[left] === " ") left++;
-    while(left <= right && s[right] === " ") right--;
+    // while(left <= right && s[left] === " ") left++;
+    // while(left <= right && s[right] === " ") right--;
     
     for(let i = left; i <= right; i++) {
         if(s[i] === " " && word.length !== 0) {
