@@ -3,26 +3,25 @@
  * @return {number[][]}
  */
 var threeSum = function(nums) {
-    let dup = new Set();
+    nums.sort((a,b) => a - b);
     let ans = new Set();
     
-    for(let i = 0; i < nums.length; i++) {
-        const ithNum = nums[i];
-        const target = 0 - ithNum;
+    for(let i = 0; i < nums.length - 2; i++) {
+        if(nums[i] === nums[i - 1]) continue;
         
-        if(dup.has(ithNum)) continue;
-        dup.add(ithNum);
+        const firstNum = nums[i];
+        const targets = -firstNum;
+        const set = new Set();
         
-        let seen = new Map();
         for(let j = i + 1; j < nums.length; j++) {
-            const complement = target - nums[j];
-            if(seen.has(complement)) {
-                ans.add(JSON.stringify([ithNum, nums[j], complement].sort()));
-            }
+            const secondNum = nums[j];
+            const thirdNum = targets - secondNum;
+            if(set.has(thirdNum)) ans.add(firstNum + " " + secondNum + " " + thirdNum);
             
-            seen.set(nums[j], j);
+            set.add(secondNum);
         }
     }
     
-    return Array.from(ans, JSON.parse);
+    
+    return Array.from(ans).map(triplet => triplet.split(" ").map(num => +num));
 };
