@@ -23,6 +23,8 @@ var findSubstring = function(s, words) {
             if(tempDict[currWord]) {
                 tempDict[currWord]--;
                 tempWordCount++;
+            } else {
+                break;
             }
         }
         
