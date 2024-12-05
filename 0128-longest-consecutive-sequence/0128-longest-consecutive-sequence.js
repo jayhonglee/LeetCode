@@ -3,32 +3,18 @@
  * @return {number}
  */
 var longestConsecutive = function(nums) {
-    const set = new Set();
-    for(const num of nums) {
-        set.add(num);
-    }
+    const set = new Set(nums);
     
-    let seen = new Set();
     let ans = 0;
     for(const num of set) {
-        if(!seen.has(num)) {
-            let currNum = num;
-            let count = 0;
-            while(!seen.has(currNum) && set.has(currNum)) {
+        if(!set.has(num - 1)) {
+            let count = 1;
+            let curr = num;
+            while(set.has(curr + 1)) {
                 count++;
-                seen.add(currNum);
-                currNum = currNum + 1;
-                
+                curr++;
             }
-            currNum = num - 1;
-            while(!seen.has(currNum) && set.has(currNum)) {
-                count++;
-                seen.add(currNum);
-                currNum = currNum - 1;
-                
-            }
-            
-            ans = Math.max(ans, count);
+            ans = Math.max(count, ans);
         }
     }
     
