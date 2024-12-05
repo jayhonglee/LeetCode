@@ -15,7 +15,6 @@ var longestConsecutive = function(nums) {
             let currNum = num;
             let count = 0;
             while(!seen.has(currNum) && set.has(currNum)) {
-                console.log(num, currNum);
                 count++;
                 seen.add(currNum);
                 currNum = currNum + 1;
@@ -23,7 +22,6 @@ var longestConsecutive = function(nums) {
             }
             currNum = num - 1;
             while(!seen.has(currNum) && set.has(currNum)) {
-                console.log(num, currNum);
                 count++;
                 seen.add(currNum);
                 currNum = currNum - 1;
