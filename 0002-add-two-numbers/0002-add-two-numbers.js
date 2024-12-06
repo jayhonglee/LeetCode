@@ -15,10 +15,7 @@ var addTwoNumbers = function(l1, l2) {
     let previousNode = null;
     let head = null;
     while(l1 || l2) {
-        const newNode = {
-            val: hasCarry ? 1 : 0,
-            next: null
-        }
+        const newNode = new ListNode(hasCarry ? 1 : 0);
         
         hasCarry = false;
         if(previousNode) previousNode.next = newNode;
@@ -37,12 +34,7 @@ var addTwoNumbers = function(l1, l2) {
         if(!head) head = newNode;
     }
     
-    if(hasCarry) {
-        previousNode.next = {
-            val: 1,
-            next: null
-        }
-    }
+    if(hasCarry) previousNode.next = new ListNode(1);
     
     return head;
 };
