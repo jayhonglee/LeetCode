@@ -12,10 +12,15 @@
  * @return {boolean}
  */
 var isSameTree = function(p, q) {
-//     base case: if p & q are both null return true if p or q is null but the other is not return false
-    if(p === null && q === null) return true;
-    if(p === null || q === null) return false;
+    const dfs = function(pNode, qNode) {
+        if(!pNode || !qNode) return pNode === qNode;
+        if(pNode.val !== qNode.val) return false;
+        
+        const left = dfs(pNode.left, qNode.left);
+        const right = dfs(pNode.right, qNode.right);
+        
+        return left && right;
+    }
     
-//     isSame when p.val = q.val && p.left = q.left && p.right = q.right
-    return p.val === q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+    return dfs(p, q);
 };
