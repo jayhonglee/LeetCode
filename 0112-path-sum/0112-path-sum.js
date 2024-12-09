@@ -12,19 +12,17 @@
  * @return {boolean}
  */
 var hasPathSum = function(root, targetSum) {
-//     Define variables & functions
-    let dfs = (node, curr) => {
-        if(!node) return false;
+    const preorder = function(root, currSum) {
+        if(!root) return false;
         
-        if(!node.left && !node.right) return curr + node.val === targetSum;
+        const currVal = root.val;
         
-        curr += node.val;
-        const left = dfs(node.left, curr);
-        const right = dfs(node.right, curr);
+        if(!root.left && !root.right && currVal + currSum === targetSum) {
+            return true;
+        }
         
-        return left || right;
+        return preorder(root.left, currSum + currVal) || preorder(root.right, currSum + currVal);
     }
     
-//     Call the helper function
-    return dfs(root, 0);
+    return preorder(root, 0);
 };
