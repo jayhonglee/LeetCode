@@ -11,41 +11,23 @@
  * @return {number}
  */
 var maxPathSum = function(root) {
-//     create a dfs function 
-//     input: root
-//     output: biggest path that connect with root
-//          use: current || current + dfs(left) || current + dfs(right) || current + dfs(left) + dfs(right);
-//     at every step store the biggest to ans
-    
-    const dfs = function(root, isStarted) {
+    const dfs = function(root) {
         if(!root) return 0;
         
         const currentVal = root.val;
         
-        const left = dfs(root.left, true);
-        const right = dfs(root.right, true);
+        const left = dfs(root.left);
+        const right = dfs(root.right);
         
-        const biggest = isStarted ? Math.max(currentVal, currentVal + left, currentVal + right) : Math.max(currentVal, currentVal + left, currentVal + right, currentVal + left + right);
+        const biggest = Math.max(currentVal, currentVal + left, currentVal + right);
+        const biggestLocal = Math.max(currentVal, currentVal + left, currentVal + right, currentVal + left + right);
         
-        ans = Math.max(ans, biggest);
+        ans = Math.max(ans, biggestLocal);
         
         return biggest;
     }
     
     let ans = -Infinity;
-    let queue = [root];
-    while(queue.length) {
-        const nextQueue = [];
-        
-        for(const node of queue) {
-            dfs(node, false);
-            
-            if(node.left) nextQueue.push(node.left);
-            if(node.right) nextQueue.push(node.right);
-        }
-        
-        queue = nextQueue;
-    }
-    
+    dfs(root);
     return ans;
 };
