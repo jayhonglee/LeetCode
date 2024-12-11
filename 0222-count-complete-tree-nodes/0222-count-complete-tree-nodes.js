@@ -47,6 +47,6 @@ var countNodes = function(root) {
             ans += 2 ** i;
         }
     }
-    console.log(isNodeThere(root, 50, nodes));
+    
     return ans;
 };
