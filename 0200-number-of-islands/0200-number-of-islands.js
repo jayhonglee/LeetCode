@@ -3,27 +3,45 @@
  * @return {number}
  */
 var numIslands = function(grid) {
-    let set = new Set(), ans = 0, m = grid.length, n = grid[0].length;
+    const dirs = [[0,1],[0,-1],[1,0],[-1,0]];
     
-    const dfs = (indexRow, indexCol) => {
-        // Out of bounds or already visited or water
-        if (indexRow < 0 || indexCol < 0 || indexRow >= m || indexCol >= n || set.has(`${indexRow},${indexCol}`) || grid[indexRow][indexCol] === "0") {
-            return;
-        }
-        
-        set.add(`${indexRow},${indexCol}`);
-        
-        // Explore the neighbors (up, down, left, right)
-        dfs(indexRow - 1, indexCol); // up
-        dfs(indexRow + 1, indexCol); // down
-        dfs(indexRow, indexCol - 1); // left
-        dfs(indexRow, indexCol + 1); // right
+    const isValid = function(x,y) {
+        return x >= 0 && x < grid.length && y >= 0 && y < grid[0].length;
     }
     
-    for (let indexRow = 0; indexRow < m; indexRow++) {
-        for (let indexCol = 0; indexCol < n; indexCol++) {
-            if (!set.has(`${indexRow},${indexCol}`) && grid[indexRow][indexCol] === "1") {
-                dfs(indexRow, indexCol);
+    const bfs = function(i, j) {
+        let queue = [];
+        queue.push([i,j]);
+        
+        while(queue.length) {
+            const nextQueue = [];
+            
+            for(const [x1,y1] of queue) {
+                const curr = x1 + "," + y1;
+                if(seen.has(curr)) continue;
+                seen.add(curr);
+                
+                for(const [x2,y2] of dirs) {
+                    const [newNodeX, newNodeY] = [x1 + x2, y1 + y2];
+                    
+                    if(isValid(newNodeX, newNodeY) && grid[newNodeX][newNodeY] === "1") nextQueue.push([newNodeX, newNodeY]);
+                }
+            }
+            
+            queue = nextQueue;
+        }
+    }
+    
+    
+    
+    let seen = new Set();
+    let ans = 0;
+    
+    for (let i = 0; i < grid.length; i++) {
+        for (let j = 0; j < grid[0].length; j++) {
+            const current = i + "," + j;
+            if (grid[i][j] === "1" && !seen.has(current)) {
+                bfs(i, j);
                 ans++;
             }
         }
