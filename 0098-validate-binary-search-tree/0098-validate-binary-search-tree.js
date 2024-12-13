@@ -11,23 +11,20 @@
  * @return {boolean}
  */
 var isValidBST = function(root) {
-    let previous = -Infinity;
-    
-    const dfs = (node) => {
-        if(!node) return true;
+    const dfs = function(root) {
+        if(!root) return true;
         
-        if(!dfs(node.left)) return false;
-    
-//         In-order Work
-        if(node.val <= previous) return false;
-        previous = node.val;
+        const left = dfs(root.left);
         
-        if(!dfs(node.right)) return false;
+        if(root.val <= previous) return false;
+        previous = root.val;
         
-        return true;
+        const right = dfs(root.right);
+        
+        if(!left || !right) return false;
+        else return true;
     }
     
-    
-    
+    let previous = -Infinity;
     return dfs(root);
 };
