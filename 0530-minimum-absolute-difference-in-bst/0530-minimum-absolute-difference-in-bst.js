@@ -11,19 +11,24 @@
  * @return {number}
  */
 var getMinimumDifference = function(root) {
-    let nodes = [], ans = Infinity;
-    
-    const dfs = (node) => {
-        if(!node) return;
-
-        dfs(node.left);
-        nodes.push(node.val);
-        dfs(node.right);
+    const dfs = function(root) {
+        if(!root) return;
+        
+        const left = dfs(root.left);
+        nodes.push(root.val);
+        const right = dfs(root.right);
     }
+    
+    let nodes = [];
     dfs(root);
     
-    for(let i = 1; i < nodes.length; i++) {
-        ans = Math.min(ans, nodes[i] - nodes[i-1]);
+    let ans = Infinity;
+    for(let i = 0; i < nodes.length; i++) {
+        const current = nodes[i];
+        const before = nodes[i - 1] === undefined ? Infinity : nodes[i - 1];
+        
+        const absDiff = Math.abs(current - before);
+        ans = Math.min(absDiff, ans);
     }
     
     return ans;
