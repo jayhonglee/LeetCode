@@ -14,30 +14,26 @@ var cloneGraph = function(node) {
     if(!node) return node;
     
     const nodesMap = new Map();
-    
-    let queue = [];
     const rootClone = new _Node(node.val);
-    queue.push([node, rootClone]);
     nodesMap.set(node, rootClone);
     
-    let seen = new Set();
+    let queue = [node];
+    
     while(queue.length) {
         const nextQueue = [];
         
-        for(const [node, clone] of queue) {
-            if(seen.has(node)) continue;
-            seen.add(node);
+        for(const node of queue) {
             const neighbors = node.neighbors;
+            const clone = nodesMap.get(node);
             
             for(const neighbor of neighbors) {
-                if(nodesMap.has(neighbor)) {
-                    clone.neighbors.push(nodesMap.get(neighbor));
-                    nextQueue.push([neighbor, nodesMap.get(neighbor)]);
-                } else {
+                if(nodesMap.has(neighbor)) clone.neighbors.push(nodesMap.get(neighbor));
+                else {
                     const newClone = new _Node(neighbor.val);
                     nodesMap.set(neighbor, newClone);
+                    
                     clone.neighbors.push(newClone);
-                    nextQueue.push([neighbor, newClone]);
+                    nextQueue.push(neighbor);
                 }
             }
         }
@@ -47,3 +43,4 @@ var cloneGraph = function(node) {
     
     return rootClone;
 };
+
