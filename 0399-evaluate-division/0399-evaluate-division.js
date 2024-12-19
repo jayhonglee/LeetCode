@@ -5,52 +5,54 @@
  * @return {number[]}
  */
 var calcEquation = function(equations, values, queries) {
-//     Define variables
-    let hashmap = new Map();
     
-//     Create a hashmap of edges (weights)
+    const adjacentNeighbors = new Map();
     for(let i = 0; i < equations.length; i++) {
         const [x, y] = equations[i];
         const value = values[i];
         
-        if (!hashmap.has(x)) hashmap.set(x, []);
-        if (!hashmap.has(y)) hashmap.set(y, []);
+        if(!adjacentNeighbors.has(x)) adjacentNeighbors.set(x, []);
+        if(!adjacentNeighbors.has(y)) adjacentNeighbors.set(y, []);
         
-        hashmap.get(x).push([y, value]);
-        hashmap.get(y).push([x, 1 / value]);
+        adjacentNeighbors.get(x).push([y, value]);
+        adjacentNeighbors.get(y).push([x, 1 / value]);
     }
     
-    // Function to perform BFS and find the result of the query
-    const bfs = (start, end) => {
-        if (!hashmap.has(start) || !hashmap.has(end)) return -1.0; // If either variable is not in the graph
-
-        let queue = [[start, 1.0]]; // [current node, accumulated product]
-        let visited = new Set();
-        visited.add(start);
-
-        while (queue.length) {
-            const [curr, product] = queue.shift();
+    const bfs = function(start, finish) {
+        let queue = [[start, 1]];
+        let seen = new Set();
+        let ans = -1;
+        
+        if(start === finish) {
+            return adjacentNeighbors.has(start) ? 1 : -1;
+        }
+        
+        while(queue.length) {
+            let nextQueue = [];
             
-            // If we reach the target variable, return the accumulated product
-            if (curr === end) return product;
-
-            // Visit all the neighbors
-            for (const [neighbor, value] of hashmap.get(curr)) {
-                if (!visited.has(neighbor)) {
-                    visited.add(neighbor);
-                    queue.push([neighbor, product * value]);
+            for(const [node, acc] of queue) {
+                if(seen.has(node)) continue;
+                seen.add(node);
+                
+                if(node === finish) return acc;
+                
+                const neighbors = adjacentNeighbors.get(node) || [];
+                
+                for(const [neighbor, cost] of neighbors) {
+                    nextQueue.push([neighbor, acc * cost]);
                 }
             }
+            
+            queue = nextQueue;
         }
-
-        return -1.0; // If no path is found
-    };
-
-    // Process each query using BFS
-    let results = [];
-    for (let [start, end] of queries) {
-        results.push(bfs(start, end));
+        
+        return ans;
     }
-
-    return results;
+    
+    let ans = [];
+    for(const [start, finish] of queries) {
+        ans.push(bfs(start, finish));
+    }
+    
+    return ans;
 };
