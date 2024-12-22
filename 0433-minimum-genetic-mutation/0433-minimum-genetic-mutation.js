@@ -5,40 +5,42 @@
  * @return {number}
  */
 var minMutation = function(startGene, endGene, bank) {
-//     Define variables
-    const set = new Set(bank), seen = new Set();
-    let queue = [], nextQueue = [];
-    let steps = 0;
+    if(!bank.length) return -1;
     
-//     Mutations (gene) => [genes]
-    const mutations = (gene) => {
-        const muts = [];
+    const set = new Set(bank);
+    set.add(startGene);
+    
+    const mutation = (gene) => {
+        let mutations = [];
         const chars = ['A', 'C', 'G', 'T'];
         
         for(let i = 0; i < gene.length; i++) {
             for(const char of chars.filter(char => char !== gene[i])) {
-                const mutated = gene.slice(0, i) + char + gene.slice(i + 1, 9);
-                if(set.has(mutated)) muts.push(mutated);
+                mutations.push(gene.slice(0, i) + char + gene.slice(i + 1));
             }
         }
         
-        return muts;
+        return mutations;
     }
     
-//     BFS
-    queue.push(startGene);
+    let queue = [startGene];
+    let steps = 0;
+    let seen = new Set();
     while(queue.length) {
-        for(const item of queue) {
-            if(seen.has(item)) continue;
-            if(item === endGene) return steps;
+        const nextQueue = [];
+        
+        for(const gene of queue) {
+            if(seen.has(gene) || !set.has(gene)) continue;
+            seen.add(gene);
             
-            seen.add(item);
-            nextQueue.push(...mutations(item));
+            if(gene === endGene) return steps;
+            
+            nextQueue.push(...mutation(gene));
         }
         
         queue = nextQueue;
-        nextQueue = [];
         steps++;
     }
+    
     return -1;
 };
