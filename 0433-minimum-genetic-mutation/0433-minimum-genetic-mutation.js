@@ -16,7 +16,8 @@ var minMutation = function(startGene, endGene, bank) {
         
         for(let i = 0; i < gene.length; i++) {
             for(const char of chars.filter(char => char !== gene[i])) {
-                mutations.push(gene.slice(0, i) + char + gene.slice(i + 1));
+                const newMutation = gene.slice(0, i) + char + gene.slice(i + 1);
+                if(set.has(newMutation)) mutations.push(newMutation);
             }
         }
         
@@ -30,7 +31,7 @@ var minMutation = function(startGene, endGene, bank) {
         const nextQueue = [];
         
         for(const gene of queue) {
-            if(seen.has(gene) || !set.has(gene)) continue;
+            if(seen.has(gene)) continue;
             seen.add(gene);
             
             if(gene === endGene) return steps;
