@@ -5,42 +5,55 @@
  * @return {number}
  */
 var ladderLength = function(beginWord, endWord, wordList) {
+//     Create adjacency list
+    const words = [beginWord, ...wordList];
+    const adjacencyList = new Map();
+    const length = beginWord.length;
 
-    const wordListSet = new Set(wordList);
-    const mutations = (word) => {
-        const mutationsList = [];
-        
-        for(let i = 0; i < word.length; i++) {
-            const char = word[i];
-            const newChars = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-            
-            for(const newChar of newChars.filter(newChar => newChar !== char)) {
-                const newWord = word.slice(0, i) + newChar + word.slice(i + 1);
-                if(wordListSet.has(newWord)) mutationsList.push(newWord);
+    const intermediateMap = new Map();
+
+    for (const word of words) {
+        for (let i = 0; i < length; i++) {
+            const genericWord = word.slice(0, i) + '*' + word.slice(i + 1);
+            if (!intermediateMap.has(genericWord)) {
+                intermediateMap.set(genericWord, []);
+            }
+            intermediateMap.get(genericWord).push(word);
+        }
+    }
+
+    // Build adjacency list using intermediate forms
+    for (const [genericWord, matchingWords] of intermediateMap.entries()) {
+        for (const word of matchingWords) {
+            if (!adjacencyList.has(word)) {
+                adjacencyList.set(word, []);
+            }
+            for (const neighbor of matchingWords) {
+                if (neighbor !== word) {
+                    adjacencyList.get(word).push(neighbor);
+                }
             }
         }
-        
-        return mutationsList;
     }
     
+//     BFS
     let queue = [beginWord];
-    let steps = 1;
-    let seen = new Set();
+    let ans = 1;
+    const seen = new Set();
     
-    while(queue.length) {
-        const nextQueue = [];
+    while(queue.length > 0) {
+        let nextQueue = [];
         
         for(const word of queue) {
             if(seen.has(word)) continue;
             seen.add(word);
+            if(word === endWord) return ans;
             
-            if(word === endWord) return steps;
-            
-            nextQueue.push(...mutations(word));
+            nextQueue.push(...adjacencyList.get(word))
         }
         
-        steps++;
         queue = nextQueue;
+        ans++;
     }
     
     return 0;
