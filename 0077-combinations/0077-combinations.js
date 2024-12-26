@@ -4,18 +4,17 @@
  * @return {number[][]}
  */
 var combine = function(n, k) {
-    let ans = [];
-    
-    const backtrack = (curr, j) => {
-        if(curr.length === k) return ans.push([...curr]);
+    const backtrack = (curr) => {
+        if(curr.length === k) return ans.push(curr);
+        const lastElement = curr[curr.length - 1] || 0;
         
-        for(let i = j; i <= n; i++) {
-            curr.push(i);
-            backtrack(curr, i + 1);
-            curr.pop();
+        for(let i = lastElement + 1; i <= n; i++) {
+            backtrack([...curr, i]);
         }
     }
     
-    backtrack([], 1);
+    let ans = [];
+    backtrack([]);
+    
     return ans;
 };
