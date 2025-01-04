@@ -4,6 +4,7 @@
  * @return {number}
  */
 var coinChange = function(coins, amount) {
+    //     Bottom-up Approach: 
     let memo = new Array(amount + 1).fill(Infinity);
     memo[0] = 0;
 
@@ -14,10 +15,10 @@ var coinChange = function(coins, amount) {
             }
         }
     }
-
-    console.log(memo);
     
     return memo[amount] === Infinity ? -1 : memo[amount];
+    
+    //      Top-Down Approach: 
     // const dp = (amount) => {
     //     if (amount < 0) return Infinity; // Base case for invalid amount
     //     if (memo[amount] !== Infinity) return memo[amount];
