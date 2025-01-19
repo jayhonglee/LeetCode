@@ -4,8 +4,8 @@
  */
 var reverse = function(x) {
     const numArr = Array.from(x + "");
-
     let left = 0, right = numArr.length - 1;
+    
     while(left < right) {
         let temp = null;
 
@@ -22,7 +22,6 @@ var reverse = function(x) {
     }
 
     const num = +numArr.join("");
-
     if(num < -(2**31) || num > (2**31) - 1) return 0;
     return num;
 };
