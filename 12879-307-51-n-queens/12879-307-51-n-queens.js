@@ -26,7 +26,7 @@ var solveNQueens = function(n) {
             negDig.add(row + col);
             curr[row] = curr[row].slice(0, col) + "Q" + curr[row].slice(col + 1);
 
-            backtrack(row + 1, cols, posDig, negDig, curr);
+            backtrack(row + 1);
 
             cols.delete(col);
             posDig.delete(col - row);
