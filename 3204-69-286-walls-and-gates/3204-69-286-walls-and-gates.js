@@ -12,7 +12,7 @@ var wallsAndGates = function(rooms) {
     const toCoordStr = (row, col) => row + "," + col;
     let initialQueue = [];
 
-    // BFS: Using a replicate of rooms matrix, update each empty room value with the shortest distance value
+    // BFS: Update each empty room value with the shortest distance value
     const bfs = (queue) => {
         let steps = 0;
         let nextQueue = [];
