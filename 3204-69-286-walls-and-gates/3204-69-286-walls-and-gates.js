@@ -36,8 +36,6 @@ var wallsAndGates = function(rooms) {
             queue = nextQueue;
             nextQueue = [];
         }
-        
-        seen.clear();
     }
     
     // Loop over each rooms and if it's a gate add to initial queue
