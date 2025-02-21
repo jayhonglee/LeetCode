@@ -13,7 +13,7 @@ var combinationSum2 = function(candidates, target) {
     // create backtrack function (curr, arr, sum)
     const backtrack = (curr, start, sum) => {
         // if sum = target push to ans array
-        if(sum === target) ans.push([...curr]);
+        if(sum === target) return ans.push([...curr]);
 
         // if sum > target return
         if(sum > target) return;
