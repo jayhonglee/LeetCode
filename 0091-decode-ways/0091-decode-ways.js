@@ -6,23 +6,28 @@ var numDecodings = function(s) {
     // DP approach:
     if(s[0] === "0") return 0;
 
-    const cache = new Array(s.length + 1).fill(0);
-    cache[s.length] = 1;
-    if(s[s.length - 1] !== "0") cache[s.length - 1] = 1;
+    let current = 0;
+    let previous = 1;
+    let secondPrevious = 0;
 
-    for(let i = s.length - 2; i >= 0; i--) {
+    for(let i = s.length - 1; i >= 0; i--) {
+        current = 0;
+
         // single digit
         if(s[i] !== "0") {
-            cache[i] = cache[i + 1];
+            current += previous;
 
             // double digit
             if(Number(s[i] + s[i + 1]) < 27) {
-                cache[i] += cache[i + 2];
+                current += secondPrevious;
             }
         }
+
+        secondPrevious = previous;
+        previous = current;
     }
 
-    return cache[0];
+    return previous;
 
     // Brute force approach:
     // const length = s.length;
