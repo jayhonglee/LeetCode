@@ -15,4 +15,12 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/jayhonglee/LeetCode/tree/master/0090-subsets-ii) |
+## String
+|  |
+| ------- |
+| [0091-decode-ways](https://github.com/jayhonglee/LeetCode/tree/master/0091-decode-ways) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0091-decode-ways](https://github.com/jayhonglee/LeetCode/tree/master/0091-decode-ways) |
 <!---LeetCode Topics End-->
