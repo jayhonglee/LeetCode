@@ -3,22 +3,18 @@
  * @return {string[][]}
  */
 var partition = function(s) {
-    // isPalindrome f(x)
-    const isPalindrome = (str) => {
-        let left = 0;
-        let right = str.length - 1;
+    // palindrome precompute to cache
+    const cache = Array.from(
+        { length: s.length }, 
+        () => new Array(s.length).fill(false)
+    );
 
-        while(left < right) {
-            const leftChar = str[left];
-            const rightChar = str[right];
-
-            if(leftChar !== rightChar) return false;
-
-            left++;
-            right--;
+    for (let left = s.length - 1; left >= 0; left--) {
+        for (let right = left; right < s.length; right++) {
+            if (s[left] === s[right] && (right - left <= 2 || cache[left + 1][right - 1])) {
+                cache[left][right] = true;
+            }
         }
-
-        return true;
     }
 
     // backtrack f(x)
@@ -28,12 +24,8 @@ var partition = function(s) {
     const backtrack = (curr, idx) => {
         if(idx === s.length) ans.push([...curr]);
 
-        let accStr = "";
         for(let i = idx; i < s.length; i++) {
-            const currChar = s[i];
-            accStr += currChar;
-
-            if(isPalindrome(accStr)) backtrack([...curr, accStr], i + 1);
+            if(cache[idx][i]) backtrack([...curr, s.slice(idx, i + 1)], i + 1);
         }
     }
 
