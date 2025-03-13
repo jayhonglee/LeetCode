@@ -22,10 +22,14 @@ var partition = function(s) {
     //      if idx is === s.length add curr to ans array
     //      loop over the s using idx and call backtrack if the newly added substring is a palindrome
     const backtrack = (curr, idx) => {
-        if(idx === s.length) ans.push([...curr]);
+        if(idx === s.length) return ans.push([...curr]);
 
         for(let i = idx; i < s.length; i++) {
-            if(cache[idx][i]) backtrack([...curr, s.slice(idx, i + 1)], i + 1);
+            if(!cache[idx][i]) continue;
+
+            curr.push(s.slice(idx, i + 1));
+            backtrack(curr, i + 1);
+            curr.pop();
         }
     }
 
