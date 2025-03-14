@@ -3,6 +3,7 @@
  * @return {number}
  */
 var countSubstrings = function(s) {
+    // Time Optimal but Space is not
     const n = s.length;
     const cache = Array.from({ length: s.length }, () => new Array(s.length).fill(false));
     let ans = 0;
