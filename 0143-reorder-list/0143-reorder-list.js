@@ -44,7 +44,7 @@ var reorderList = function(head) {
         start.next = end;
         start = startTemp;
 
-        if (start) { // Prevents missing last node for odd lengths
+        if (start) { 
             let endTemp = end.next;
             end.next = start;
             end = endTemp;
