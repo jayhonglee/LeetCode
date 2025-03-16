@@ -7,14 +7,15 @@ var checkValidString = function(s) {
             minOpen++;
             maxOpen++;
         } else if(char === ")") {
-            minOpen = Math.max(0, minOpen - 1);
+            minOpen--;
             maxOpen--;
         } else {
-            minOpen = Math.max(0, minOpen - 1);
+            minOpen--;
             maxOpen++;
         }
 
         if(maxOpen < 0) return false;
+        if(minOpen < 0) minOpen = 0;
     }
 
     return minOpen === 0;
