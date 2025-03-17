@@ -3,11 +3,8 @@
  * @return {number}
  */
 var minCostConnectPoints = function(points) {
-    // Prim's algo
-    // 0. start at a node (any)
-    // 1. pop the smallest node if unvisited from heap (then mark it as visited)
-    // 2. add the node's weighted neighbor nodes (min heap)
-    // 3. repeat until the visited set is of length of points
+    // edge case
+    if(points.length === 1) return 0;
 
     // heap implementation
     const MinHeap = function() {
@@ -65,12 +62,10 @@ var minCostConnectPoints = function(points) {
         }
     };
 
-    // edge case
-    if(points.length === 1) return 0;
-
     // define visited and adjacent list
     const visited = new Set();
     const adjList = new Map();
+
     for(let i = 0; i < points.length; i++) {
         const [currX, currY] = points[i];
 
@@ -85,6 +80,12 @@ var minCostConnectPoints = function(points) {
             adjList.get(j).push([distance, i]);
         }
     }
+
+    // Prim's algo
+    // 0. start at a node (any)
+    // 1. pop the smallest node if unvisited from heap (then mark it as visited)
+    // 2. add the node's weighted neighbor nodes (min heap)
+    // 3. repeat until the visited set is of length of points
 
     const minHeap = new MinHeap();
     minHeap.push([0,0]);
