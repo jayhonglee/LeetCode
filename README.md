@@ -7,6 +7,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/jayhonglee/LeetCode/tree/master/0090-subsets-ii) |
+| [0228-summary-ranges](https://github.com/jayhonglee/LeetCode/tree/master/0228-summary-ranges) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 ## Backtracking
