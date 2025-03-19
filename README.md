@@ -8,6 +8,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | ------- |
 | [0090-subsets-ii](https://github.com/jayhonglee/LeetCode/tree/master/0090-subsets-ii) |
 | [0228-summary-ranges](https://github.com/jayhonglee/LeetCode/tree/master/0228-summary-ranges) |
+| [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 ## Backtracking
@@ -19,6 +20,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/jayhonglee/LeetCode/tree/master/0090-subsets-ii) |
+| [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 ## String
 |  |
 | ------- |
@@ -38,6 +40,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Hash Table
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 ## Design
 |  |
@@ -81,4 +84,16 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
+## Sorting
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
