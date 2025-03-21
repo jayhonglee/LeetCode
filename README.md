@@ -30,6 +30,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/jayhonglee/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 ## Dynamic Programming
 |  |
 | ------- |
