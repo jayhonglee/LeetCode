@@ -1,7 +1,6 @@
 class Solution {
     public int minOperations(String s) {
         // Optimal Solution:
-
         int countOne = 0;
         int countTwo = 0;
 
