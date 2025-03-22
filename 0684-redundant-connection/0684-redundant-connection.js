@@ -14,7 +14,7 @@ var findRedundantConnection = function(edges) {
         let par = parent[node];
 
         while(par !== parent[par]) {
-            parent[par] = parent[parent[par]];
+            parent[par] = parent[parent[par]]; // not necessarily needed but flattnes to make it faster 
             par = parent[par];
         }
 
