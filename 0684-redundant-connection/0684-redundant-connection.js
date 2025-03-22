@@ -45,4 +45,6 @@ var findRedundantConnection = function(edges) {
     for(const [x, y] of edges) {
         if(!union(x - 1, y - 1)) return [x, y];
     }
+
+    return [];
 };
