@@ -32,6 +32,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0211-design-add-and-search-words-data-structure](https://github.com/jayhonglee/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/jayhonglee/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 ## Dynamic Programming
 |  |
@@ -47,6 +48,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | ------- |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 ## Design
 |  |
@@ -63,6 +65,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0143-reorder-list](https://github.com/jayhonglee/LeetCode/tree/master/0143-reorder-list) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 ## Linked List
 |  |
 | ------- |
@@ -80,6 +83,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 ## Union Find
 |  |
 | ------- |
