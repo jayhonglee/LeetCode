@@ -9,7 +9,6 @@ class Solution {
         for(int i = 0; i < s.length(); i++) {
             hashMap.put(c[i], i);
         }
-        System.out.println(hashMap);
 
         // loop over the String s and update end idx of this partition and add it to ans array if done
         int idx = 0;
