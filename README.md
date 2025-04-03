@@ -10,6 +10,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0213-house-robber-ii](https://github.com/jayhonglee/LeetCode/tree/master/0213-house-robber-ii) |
 | [0228-summary-ranges](https://github.com/jayhonglee/LeetCode/tree/master/0228-summary-ranges) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
@@ -23,6 +24,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | ------- |
 | [0090-subsets-ii](https://github.com/jayhonglee/LeetCode/tree/master/0090-subsets-ii) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
 ## String
 |  |
 | ------- |
@@ -63,6 +65,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/jayhonglee/LeetCode/tree/master/0143-reorder-list) |
+| [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
@@ -106,6 +109,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 ## Sorting
 |  |
