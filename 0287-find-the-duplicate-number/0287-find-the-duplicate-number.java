@@ -16,6 +16,6 @@ class Solution {
             fast = nums[fast];
         }
 
-        return fast;
+        return slow;
     }
 }
