@@ -51,12 +51,14 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | ------- |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [0355-design-twitter](https://github.com/jayhonglee/LeetCode/tree/master/0355-design-twitter) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 ## Design
 |  |
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/jayhonglee/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0355-design-twitter](https://github.com/jayhonglee/LeetCode/tree/master/0355-design-twitter) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 ## Counting
 |  |
@@ -74,6 +76,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/jayhonglee/LeetCode/tree/master/0143-reorder-list) |
+| [0355-design-twitter](https://github.com/jayhonglee/LeetCode/tree/master/0355-design-twitter) |
 ## Stack
 |  |
 | ------- |
@@ -136,6 +139,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/jayhonglee/LeetCode/tree/master/0355-design-twitter) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Shortest Path
 |  |
