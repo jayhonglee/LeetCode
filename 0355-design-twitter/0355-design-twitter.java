@@ -2,7 +2,7 @@ class Twitter {
     // Set counter (initially 0)
     // Set hashmap for each user's follows list
     // Set hashmap for each user's posts using counter
-
+    
     int counter;
     Map<Integer, Set<Integer>> follows;
     Map<Integer, ArrayList<int[]>> posts;
