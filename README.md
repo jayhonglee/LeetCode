@@ -26,6 +26,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0090-subsets-ii](https://github.com/jayhonglee/LeetCode/tree/master/0090-subsets-ii) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0371-sum-of-two-integers](https://github.com/jayhonglee/LeetCode/tree/master/0371-sum-of-two-integers) |
 ## String
 |  |
 | ------- |
@@ -113,6 +114,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
+| [0371-sum-of-two-integers](https://github.com/jayhonglee/LeetCode/tree/master/0371-sum-of-two-integers) |
 ## Binary Search
 |  |
 | ------- |
