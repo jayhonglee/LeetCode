@@ -115,11 +115,13 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Math
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/jayhonglee/LeetCode/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/jayhonglee/LeetCode/tree/master/0371-sum-of-two-integers) |
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/jayhonglee/LeetCode/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
