@@ -84,6 +84,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/jayhonglee/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/jayhonglee/LeetCode/tree/master/0143-reorder-list) |
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
@@ -135,6 +136,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/jayhonglee/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/jayhonglee/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0684-redundant-connection](https://github.com/jayhonglee/LeetCode/tree/master/0684-redundant-connection) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -160,4 +162,12 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/jayhonglee/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/jayhonglee/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
