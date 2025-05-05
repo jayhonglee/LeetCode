@@ -20,11 +20,17 @@ var pacificAtlantic = function(heights) {
                 if(visited.has(row + "," + col)) continue;
                 visited.add(row + "," + col);
 
-                if(pacific.has(row + "," + col)) isPacific = true;
-                if(atlantic.has(row + "," + col)) isAtlantic = true;
+                if(
+                    pacific.has(row + "," + col) ||
+                    row == 0 || 
+                    col == 0
+                ) isPacific = true;
 
-                if(row == 0 || col == 0) isPacific = true;
-                if(row == heights.length - 1 || col == heights[0].length - 1) isAtlantic = true;
+                if(
+                    atlantic.has(row + "," + col) ||
+                    row == heights.length - 1 ||
+                    col == heights[0].length - 1
+                ) isAtlantic = true;
 
                 for(const [dx, dy] of dirs) {
                     const newRow = row + dy;
