@@ -1,8 +1,8 @@
 class Solution {
+    // Set left as starting and right as starting
+    // For each left, loop over the right (sliding window)
+    //      until the length of curr substring - most frequent > k
     public int characterReplacement(String s, int k) {
-        // Set left as starting and right as starting
-        // For each left, loop over the right (sliding window)
-        //      until the length of curr substring - most frequent > k
         char[] charArr = s.toCharArray();
         int[] count = new int[26];
         int left = 0;
