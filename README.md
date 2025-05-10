@@ -39,6 +39,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0097-interleaving-string](https://github.com/jayhonglee/LeetCode/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/jayhonglee/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0424-longest-repeating-character-replacement](https://github.com/jayhonglee/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
@@ -61,6 +62,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0355-design-twitter](https://github.com/jayhonglee/LeetCode/tree/master/0355-design-twitter) |
+| [0424-longest-repeating-character-replacement](https://github.com/jayhonglee/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
@@ -200,4 +202,8 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0417-pacific-atlantic-water-flow](https://github.com/jayhonglee/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+## Sliding Window
+|  |
+| ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/jayhonglee/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 <!---LeetCode Topics End-->
