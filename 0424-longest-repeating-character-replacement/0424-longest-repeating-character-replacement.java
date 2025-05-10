@@ -5,10 +5,10 @@ class Solution {
         //      until the length of curr substring - most frequent > k
         char[] charArr = s.toCharArray();
         int[] count = new int[26];
-        int left = 0, right = 0;
+        int left = 0;
         int ans = 0;
 
-        while(right < charArr.length) {
+        for(int right = 0; right < charArr.length; right++) {
             count[charArr[right] - 'A']++;
 
             while((right - left + 1) - findMax(count) > k) {
@@ -17,7 +17,6 @@ class Solution {
             }
 
             ans = Math.max(ans, right - left + 1);
-            right++;
         }
 
         return ans;
