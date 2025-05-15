@@ -1,4 +1,5 @@
 class Solution {
+    // Time is most optimal but space could be constant not n.
     public boolean mergeTriplets(int[][] triplets, int[] target) {
         List<int[]> queue = new ArrayList<>();
 
@@ -11,6 +12,7 @@ class Solution {
                     valid = false;
                     break;
                 }
+                
                 if(trip[i] == target[i]) hasAtleastOneTarget = true;
             }
 
@@ -26,7 +28,6 @@ class Solution {
         }
 
         for(int i = 0; i < ans.length; i++) {
-            System.out.println(ans[i] + "," + target[i]);
             if(ans[i] != target[i]) return false;
         }
 
