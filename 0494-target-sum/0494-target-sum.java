@@ -12,9 +12,9 @@ class Solution {
         String key = idx + "," + target;
 
         if(idx == 0) {
-            if(val == 0) return val == target ? 2: 0;
-
-            return val == Math.abs(target) ? 1 : 0;
+            if(val == 0 && target == 0) return 2;
+            if(val == target || val == -target) return 1;
+            return 0;
         }
 
         if(memo.containsKey(key)) return memo.get(key);
