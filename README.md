@@ -17,6 +17,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0417-pacific-atlantic-water-flow](https://github.com/jayhonglee/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/jayhonglee/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/jayhonglee/LeetCode/tree/master/0494-target-sum) |
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
@@ -27,6 +28,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | ------- |
 | [0090-subsets-ii](https://github.com/jayhonglee/LeetCode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0494-target-sum](https://github.com/jayhonglee/LeetCode/tree/master/0494-target-sum) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -56,6 +58,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0213-house-robber-ii](https://github.com/jayhonglee/LeetCode/tree/master/0213-house-robber-ii) |
 | [0435-non-overlapping-intervals](https://github.com/jayhonglee/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/jayhonglee/LeetCode/tree/master/0494-target-sum) |
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
