@@ -39,6 +39,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## String
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/jayhonglee/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0091-decode-ways](https://github.com/jayhonglee/LeetCode/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/jayhonglee/LeetCode/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
@@ -52,6 +53,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Dynamic Programming
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/jayhonglee/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0091-decode-ways](https://github.com/jayhonglee/LeetCode/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/jayhonglee/LeetCode/tree/master/0097-interleaving-string) |
 | [0118-pascals-triangle](https://github.com/jayhonglee/LeetCode/tree/master/0118-pascals-triangle) |
@@ -109,6 +111,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Recursion
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/jayhonglee/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0143-reorder-list](https://github.com/jayhonglee/LeetCode/tree/master/0143-reorder-list) |
 ## Greedy
 |  |
