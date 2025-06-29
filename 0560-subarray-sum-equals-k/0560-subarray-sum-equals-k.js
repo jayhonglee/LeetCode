@@ -4,18 +4,17 @@
  * @return {number}
  */
 var subarraySum = function(nums, k) {
-    let ans = 0, hashMap = new Map(), curr = 0;
-    hashMap.set(0,1);
-    
-    for(const num of nums) {
-        curr += num;
-        if(hashMap.get(curr - k)) {
-            ans += hashMap.get(curr - k);
-        }
+    const hashmap = new Map([[0,1]]);
+    let acc = 0;
+    let ans = 0;
 
-        hashMap.set(curr, (hashMap.get(curr) || 0) + 1);
+    // Iterate over the nums
+    for(const num of nums) {
+        // Find how many k - Cum subarrays before so far
+        acc += num;
+        ans += hashmap.get(acc - k) || 0;
+        hashmap.set(acc, (hashmap.get(acc) ?? 0) + 1);
     }
-    
-    
+
     return ans;
 };
