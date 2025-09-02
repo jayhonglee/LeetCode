@@ -19,6 +19,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0435-non-overlapping-intervals](https://github.com/jayhonglee/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/jayhonglee/LeetCode/tree/master/0494-target-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/jayhonglee/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0643-maximum-average-subarray-i](https://github.com/jayhonglee/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -228,6 +229,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/jayhonglee/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0643-maximum-average-subarray-i](https://github.com/jayhonglee/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 ## Prefix Sum
 |  |
 | ------- |
