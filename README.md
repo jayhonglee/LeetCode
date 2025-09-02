@@ -21,6 +21,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0560-subarray-sum-equals-k](https://github.com/jayhonglee/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
+| [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
+| [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 ## Linked List
 |  |
 | ------- |
@@ -161,6 +163,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0435-non-overlapping-intervals](https://github.com/jayhonglee/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
+| [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 ## Depth-First Search
 |  |
 | ------- |
