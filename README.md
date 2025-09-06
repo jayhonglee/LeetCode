@@ -23,6 +23,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
+| [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
@@ -165,6 +166,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
+| [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -191,6 +193,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | ------- |
 | [0355-design-twitter](https://github.com/jayhonglee/LeetCode/tree/master/0355-design-twitter) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
 ## Shortest Path
 |  |
 | ------- |
@@ -234,4 +237,9 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/jayhonglee/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
+## Simulation
+|  |
+| ------- |
+| [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
 <!---LeetCode Topics End-->
