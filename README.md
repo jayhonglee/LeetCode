@@ -25,6 +25,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
+| [1961-maximum-ice-cream-bars](https://github.com/jayhonglee/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 ## Backtracking
@@ -128,6 +129,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
+| [1961-maximum-ice-cream-bars](https://github.com/jayhonglee/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Union Find
 |  |
@@ -167,6 +169,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
+| [1961-maximum-ice-cream-bars](https://github.com/jayhonglee/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -242,4 +245,8 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
+## Counting Sort
+|  |
+| ------- |
+| [1961-maximum-ice-cream-bars](https://github.com/jayhonglee/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 <!---LeetCode Topics End-->
