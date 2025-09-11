@@ -28,6 +28,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [1961-maximum-ice-cream-bars](https://github.com/jayhonglee/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
+| [2329-maximum-product-after-k-increments](https://github.com/jayhonglee/LeetCode/tree/master/2329-maximum-product-after-k-increments) |
 ## Backtracking
 |  |
 | ------- |
@@ -131,6 +132,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [1961-maximum-ice-cream-bars](https://github.com/jayhonglee/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
+| [2329-maximum-product-after-k-increments](https://github.com/jayhonglee/LeetCode/tree/master/2329-maximum-product-after-k-increments) |
 ## Union Find
 |  |
 | ------- |
@@ -197,6 +199,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0355-design-twitter](https://github.com/jayhonglee/LeetCode/tree/master/0355-design-twitter) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
+| [2329-maximum-product-after-k-increments](https://github.com/jayhonglee/LeetCode/tree/master/2329-maximum-product-after-k-increments) |
 ## Shortest Path
 |  |
 | ------- |
