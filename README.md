@@ -29,6 +29,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 | [2329-maximum-product-after-k-increments](https://github.com/jayhonglee/LeetCode/tree/master/2329-maximum-product-after-k-increments) |
+| [2713-find-the-divisibility-array-of-a-string](https://github.com/jayhonglee/LeetCode/tree/master/2713-find-the-divisibility-array-of-a-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -57,6 +58,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/jayhonglee/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
+| [2713-find-the-divisibility-array-of-a-string](https://github.com/jayhonglee/LeetCode/tree/master/2713-find-the-divisibility-array-of-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -154,6 +156,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0069-sqrtx](https://github.com/jayhonglee/LeetCode/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/jayhonglee/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [2713-find-the-divisibility-array-of-a-string](https://github.com/jayhonglee/LeetCode/tree/master/2713-find-the-divisibility-array-of-a-string) |
 ## Binary Search
 |  |
 | ------- |
