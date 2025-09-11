@@ -10,7 +10,7 @@ class Solution {
             minheap.add(minheap.remove() + 1);
         }
 
-        int MOD = 1000000007;
+        int MOD = 1_000_000_007;
         long ans = 1;
 
         while(!minheap.isEmpty()) {
