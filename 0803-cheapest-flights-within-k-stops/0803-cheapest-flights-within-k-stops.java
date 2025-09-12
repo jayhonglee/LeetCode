@@ -15,6 +15,7 @@ class Solution {
 //         Dijkstra's Algorithm - Set all node estimates to Infinity except src & Start from the src (use minheap)
         int[] stops = new int[n];
         Arrays.fill(stops, Integer.MAX_VALUE);
+        
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
         pq.offer(new int[] { 0, src, 0 });
 
