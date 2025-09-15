@@ -6,6 +6,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Array
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/jayhonglee/LeetCode/tree/master/0047-permutations-ii) |
 | [0090-subsets-ii](https://github.com/jayhonglee/LeetCode/tree/master/0090-subsets-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/jayhonglee/LeetCode/tree/master/0118-pascals-triangle) |
@@ -33,6 +34,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Backtracking
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/jayhonglee/LeetCode/tree/master/0047-permutations-ii) |
 | [0090-subsets-ii](https://github.com/jayhonglee/LeetCode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/jayhonglee/LeetCode/tree/master/0494-target-sum) |
@@ -167,6 +169,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Sorting
 |  |
 | ------- |
+| [0047-permutations-ii](https://github.com/jayhonglee/LeetCode/tree/master/0047-permutations-ii) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0435-non-overlapping-intervals](https://github.com/jayhonglee/LeetCode/tree/master/0435-non-overlapping-intervals) |
