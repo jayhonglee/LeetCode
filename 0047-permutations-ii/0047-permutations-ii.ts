@@ -1,4 +1,6 @@
 function permuteUnique(nums: number[]): number[][] {
+    // Accepted but not optimal both is runtime and space
+
     // Create backtrack function
     const backtrack = function(nums: number[], curr: number[]): void {
         if(!nums.length && !seen.has(curr.join(","))) {
