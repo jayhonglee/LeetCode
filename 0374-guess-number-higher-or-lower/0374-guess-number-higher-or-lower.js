@@ -24,10 +24,7 @@ var guessNumber = function(n) {
         const guessResult = guess(mid);
 
         if(guessResult === 0) return mid;
-        else if(guessResult === -1) {
-            high = mid - 1;
-        } else {
-            low = mid + 1;
-        }
+        else if(guessResult === -1) high = mid - 1;
+        else low = mid + 1;
     }
 };
