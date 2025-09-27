@@ -18,7 +18,7 @@ var guessNumber = function(n) {
 
     while(low <= high) {
         // start at the mid
-        const mid = Math.floor((low + high) / 2);
+        const mid = low + Math.floor((high - low) / 2);
 
         // call guess and act accordingly
         const guessResult = guess(mid);
