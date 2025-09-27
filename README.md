@@ -170,6 +170,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [0374-guess-number-higher-or-lower](https://github.com/jayhonglee/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 ## Sorting
 |  |
 | ------- |
@@ -269,4 +270,8 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/jayhonglee/LeetCode/tree/master/0692-top-k-frequent-words) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/jayhonglee/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
