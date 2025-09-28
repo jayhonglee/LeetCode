@@ -78,6 +78,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1236-n-th-tribonacci-number](https://github.com/jayhonglee/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -162,6 +163,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0069-sqrtx](https://github.com/jayhonglee/LeetCode/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/jayhonglee/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [1236-n-th-tribonacci-number](https://github.com/jayhonglee/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [2713-find-the-divisibility-array-of-a-string](https://github.com/jayhonglee/LeetCode/tree/master/2713-find-the-divisibility-array-of-a-string) |
 ## Binary Search
 |  |
@@ -274,4 +276,8 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/jayhonglee/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
+## Memoization
+|  |
+| ------- |
+| [1236-n-th-tribonacci-number](https://github.com/jayhonglee/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
