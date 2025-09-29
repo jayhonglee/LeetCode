@@ -21,24 +21,15 @@ var longestSubsequence = function(arr, difference) {
 
         if(hashmap.has(next)) {
             // If yes, look up the max array to find the number (if there are multiple) with the highest value and update max array.
-            const idxArr = hashmap.get(next);
-            // Find the index that gives the best subsequence length
-            let bestIdx = idxArr[0];
-            for (let j = 1; j < idxArr.length; j++) {
-                if (max[idxArr[j]] > max[bestIdx]) {
-                    bestIdx = idxArr[j];
-                }
-            }
-
-            max[i] = max[bestIdx] + 1;
+            const value = hashmap.get(next);
+            max[i] = value + 1;
         }
 
         // Update ans variable to store the max value it has seen so far
         ans = Math.max(ans, max[i]);
 
         // Update hashmap
-        if(!hashmap.has(curr)) hashmap.set(curr, []);
-        hashmap.get(curr).push(i);
+        hashmap.set(curr, max[i]);
     }
 
     return ans;
