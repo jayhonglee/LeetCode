@@ -15,8 +15,6 @@ var getCommon = function(nums1, nums2) {
         if(value1 === value2)  return value1; // Condition 1 = If equal values return the value
         else if(value1 > value2) curr2++;     // Condition 2 = If curr1 is bigger, increment curr2 && continue
         else curr1++;                         // Condition 3 = Else, increment curr1 && continue
-        
-        continue;
     }
 
     // Return -1 if while loop didn't find a match
