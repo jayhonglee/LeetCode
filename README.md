@@ -32,6 +32,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 | [2329-maximum-product-after-k-increments](https://github.com/jayhonglee/LeetCode/tree/master/2329-maximum-product-after-k-increments) |
+| [2634-minimum-common-value](https://github.com/jayhonglee/LeetCode/tree/master/2634-minimum-common-value) |
 | [2713-find-the-divisibility-array-of-a-string](https://github.com/jayhonglee/LeetCode/tree/master/2713-find-the-divisibility-array-of-a-string) |
 ## Backtracking
 |  |
@@ -94,6 +95,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/jayhonglee/LeetCode/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
+| [2634-minimum-common-value](https://github.com/jayhonglee/LeetCode/tree/master/2634-minimum-common-value) |
 ## Design
 |  |
 | ------- |
@@ -115,6 +117,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
+| [2634-minimum-common-value](https://github.com/jayhonglee/LeetCode/tree/master/2634-minimum-common-value) |
 ## Linked List
 |  |
 | ------- |
@@ -176,6 +179,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0374-guess-number-higher-or-lower](https://github.com/jayhonglee/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
+| [2634-minimum-common-value](https://github.com/jayhonglee/LeetCode/tree/master/2634-minimum-common-value) |
 ## Sorting
 |  |
 | ------- |
