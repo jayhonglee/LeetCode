@@ -11,17 +11,18 @@
  * @param {number} val
  * @return {TreeNode}
  */
+//  Not optimal solution, can choose either left or right based on the value 
 var searchBST = function(root, val) {
-    // Define in-order traversal function
-    const inOrderTraversal = (node, val) => {
+    // Define pre-order traversal function
+    const preOrderTraversal = (node, val) => {
         if(!node) return null;
 
         // If the value is found, return the node.
         if(node.val === val) return node;
 
-        const left = inOrderTraversal(node.left, val);
+        const left = preOrderTraversal(node.left, val);
         if(left) return left;
-        const right = inOrderTraversal(node.right, val);
+        const right = preOrderTraversal(node.right, val);
         if(right) return right;
 
         // If not, return null
@@ -29,5 +30,5 @@ var searchBST = function(root, val) {
     }
     
     // Call the traversal function and return the output
-    return inOrderTraversal(root, val);
+    return preOrderTraversal(root, val);
 };
