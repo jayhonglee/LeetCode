@@ -31,6 +31,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [1961-maximum-ice-cream-bars](https://github.com/jayhonglee/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
+| [2227-sum-of-subarray-ranges](https://github.com/jayhonglee/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 | [2329-maximum-product-after-k-increments](https://github.com/jayhonglee/LeetCode/tree/master/2329-maximum-product-after-k-increments) |
 | [2634-minimum-common-value](https://github.com/jayhonglee/LeetCode/tree/master/2634-minimum-common-value) |
 | [2713-find-the-divisibility-array-of-a-string](https://github.com/jayhonglee/LeetCode/tree/master/2713-find-the-divisibility-array-of-a-string) |
@@ -133,6 +134,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0388-longest-absolute-file-path](https://github.com/jayhonglee/LeetCode/tree/master/0388-longest-absolute-file-path) |
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
+| [2227-sum-of-subarray-ranges](https://github.com/jayhonglee/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 ## Recursion
 |  |
 | ------- |
@@ -231,6 +233,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
+| [2227-sum-of-subarray-ranges](https://github.com/jayhonglee/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 ## Tree
 |  |
 | ------- |
