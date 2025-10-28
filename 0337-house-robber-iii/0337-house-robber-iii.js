@@ -12,9 +12,8 @@
  */
 var rob = function(root) {
     // Intuitions
-    // 1) Backtracking seems appropriate to check all the possible combinations.
-    // 2) To reduce time complexity of calculating duplicate subtrees, caching seems appropriate.
-    // 3) To implement intuition 2, dividing the problem to subtrees seems appropriate.
+    // 1) It seems appropriate to check all the possible combinations.
+    // 2) To reduce time complexity of calculating duplicate subtrees, bottom-up approach seems appropriate.
 
     // Code
     // 0) Handle root with no child nodes.
