@@ -58,6 +58,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/jayhonglee/LeetCode/tree/master/0010-regular-expression-matching) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jayhonglee/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0091-decode-ways](https://github.com/jayhonglee/LeetCode/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/jayhonglee/LeetCode/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
@@ -118,6 +119,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Two Pointers
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jayhonglee/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/jayhonglee/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0143-reorder-list](https://github.com/jayhonglee/LeetCode/tree/master/0143-reorder-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/jayhonglee/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -312,4 +314,8 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [1236-n-th-tribonacci-number](https://github.com/jayhonglee/LeetCode/tree/master/1236-n-th-tribonacci-number) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jayhonglee/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
