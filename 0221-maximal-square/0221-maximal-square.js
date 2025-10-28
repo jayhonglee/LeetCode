@@ -21,7 +21,6 @@ var maximalSquare = function(matrix) {
         const bottom = largestArea(row + 1, col);
 
         const min = Math.min(right, bottomRight, bottom);
-        console.log(row, " ", col, min);
 
         const area = Math.pow(Math.sqrt(min) + 1, 2);
 
