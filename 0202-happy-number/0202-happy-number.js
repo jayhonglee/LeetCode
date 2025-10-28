@@ -3,19 +3,25 @@
  * @return {boolean}
  */
 var isHappy = function(n) {
-    let number = n.toString();
-    let sum = 0;
-    let set = new Set();
-    
-    while(sum !== 1) {
-        sum = 0;
-        for(let digit of number) {
-            sum += Math.pow(+digit, 2); 
+    // Create a function 
+    // Iterate over each decimal point and square each and append
+    const set = new Set();
+
+    const iterate = (n) => {
+        if(set.has(n)) return false;
+        set.add(n);
+
+        let nStr = n + "";
+        let sum = 0;
+
+        for(const digit of nStr) {
+            sum += Math.pow(Number(digit), 2);
         }
-        if(set.has(sum)) return false;
-        set.add(sum);
-        number = sum.toString();
+
+        if(sum === 1) return true;
+
+        return iterate(sum);
     }
-    
-    return true;
+
+    return iterate(n);
 };
