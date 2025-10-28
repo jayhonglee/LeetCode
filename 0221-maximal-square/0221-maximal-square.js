@@ -4,7 +4,6 @@
  */
 var maximalSquare = function(matrix) {
     // Optimal Solution
-
     const hashmap = new Map();
     const rowColStringify = (row, col) => row + "," + col;
     const isInBound = (row, col) => row >= 0 && col >= 0 && row < matrix.length && col < matrix[0].length;
