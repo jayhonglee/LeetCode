@@ -62,6 +62,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0091-decode-ways](https://github.com/jayhonglee/LeetCode/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/jayhonglee/LeetCode/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0205-isomorphic-strings](https://github.com/jayhonglee/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/jayhonglee/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0344-reverse-string](https://github.com/jayhonglee/LeetCode/tree/master/0344-reverse-string) |
 | [0388-longest-absolute-file-path](https://github.com/jayhonglee/LeetCode/tree/master/0388-longest-absolute-file-path) |
@@ -94,6 +95,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/jayhonglee/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0205-isomorphic-strings](https://github.com/jayhonglee/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0355-design-twitter](https://github.com/jayhonglee/LeetCode/tree/master/0355-design-twitter) |
