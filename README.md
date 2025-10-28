@@ -13,6 +13,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0118-pascals-triangle](https://github.com/jayhonglee/LeetCode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/jayhonglee/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0213-house-robber-ii](https://github.com/jayhonglee/LeetCode/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/jayhonglee/LeetCode/tree/master/0221-maximal-square) |
 | [0228-summary-ranges](https://github.com/jayhonglee/LeetCode/tree/master/0228-summary-ranges) |
 | [0268-missing-number](https://github.com/jayhonglee/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
@@ -80,6 +81,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0119-pascals-triangle-ii](https://github.com/jayhonglee/LeetCode/tree/master/0119-pascals-triangle-ii) |
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0213-house-robber-ii](https://github.com/jayhonglee/LeetCode/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/jayhonglee/LeetCode/tree/master/0221-maximal-square) |
 | [0435-non-overlapping-intervals](https://github.com/jayhonglee/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/jayhonglee/LeetCode/tree/master/0494-target-sum) |
 | [0647-palindromic-substrings](https://github.com/jayhonglee/LeetCode/tree/master/0647-palindromic-substrings) |
@@ -277,6 +279,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Matrix
 |  |
 | ------- |
+| [0221-maximal-square](https://github.com/jayhonglee/LeetCode/tree/master/0221-maximal-square) |
 | [0417-pacific-atlantic-water-flow](https://github.com/jayhonglee/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/jayhonglee/LeetCode/tree/master/0463-island-perimeter) |
 ## Sliding Window
