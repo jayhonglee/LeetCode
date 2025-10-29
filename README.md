@@ -71,6 +71,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0692-top-k-frequent-words](https://github.com/jayhonglee/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
+| [0857-positions-of-large-groups](https://github.com/jayhonglee/LeetCode/tree/master/0857-positions-of-large-groups) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/jayhonglee/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [2713-find-the-divisibility-array-of-a-string](https://github.com/jayhonglee/LeetCode/tree/master/2713-find-the-divisibility-array-of-a-string) |
 ## Dynamic Programming
