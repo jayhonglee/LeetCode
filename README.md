@@ -38,6 +38,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 | [2227-sum-of-subarray-ranges](https://github.com/jayhonglee/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 | [2329-maximum-product-after-k-increments](https://github.com/jayhonglee/LeetCode/tree/master/2329-maximum-product-after-k-increments) |
+| [2449-maximum-number-of-robots-within-budget](https://github.com/jayhonglee/LeetCode/tree/master/2449-maximum-number-of-robots-within-budget) |
 | [2634-minimum-common-value](https://github.com/jayhonglee/LeetCode/tree/master/2634-minimum-common-value) |
 | [2713-find-the-divisibility-array-of-a-string](https://github.com/jayhonglee/LeetCode/tree/master/2713-find-the-divisibility-array-of-a-string) |
 ## Backtracking
@@ -203,6 +204,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0287-find-the-duplicate-number](https://github.com/jayhonglee/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/jayhonglee/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0374-guess-number-higher-or-lower](https://github.com/jayhonglee/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
+| [2449-maximum-number-of-robots-within-budget](https://github.com/jayhonglee/LeetCode/tree/master/2449-maximum-number-of-robots-within-budget) |
 | [2634-minimum-common-value](https://github.com/jayhonglee/LeetCode/tree/master/2634-minimum-common-value) |
 ## Sorting
 |  |
@@ -252,6 +254,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
 | [2329-maximum-product-after-k-increments](https://github.com/jayhonglee/LeetCode/tree/master/2329-maximum-product-after-k-increments) |
+| [2449-maximum-number-of-robots-within-budget](https://github.com/jayhonglee/LeetCode/tree/master/2449-maximum-number-of-robots-within-budget) |
 ## Shortest Path
 |  |
 | ------- |
@@ -299,11 +302,13 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/jayhonglee/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/jayhonglee/LeetCode/tree/master/0643-maximum-average-subarray-i) |
+| [2449-maximum-number-of-robots-within-budget](https://github.com/jayhonglee/LeetCode/tree/master/2449-maximum-number-of-robots-within-budget) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/jayhonglee/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
+| [2449-maximum-number-of-robots-within-budget](https://github.com/jayhonglee/LeetCode/tree/master/2449-maximum-number-of-robots-within-budget) |
 ## Simulation
 |  |
 | ------- |
@@ -328,4 +333,12 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jayhonglee/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Queue
+|  |
+| ------- |
+| [2449-maximum-number-of-robots-within-budget](https://github.com/jayhonglee/LeetCode/tree/master/2449-maximum-number-of-robots-within-budget) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2449-maximum-number-of-robots-within-budget](https://github.com/jayhonglee/LeetCode/tree/master/2449-maximum-number-of-robots-within-budget) |
 <!---LeetCode Topics End-->
