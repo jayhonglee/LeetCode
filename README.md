@@ -234,6 +234,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0463-island-perimeter](https://github.com/jayhonglee/LeetCode/tree/master/0463-island-perimeter) |
 | [0684-redundant-connection](https://github.com/jayhonglee/LeetCode/tree/master/0684-redundant-connection) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -273,6 +274,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0145-binary-tree-postorder-traversal](https://github.com/jayhonglee/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0337-house-robber-iii](https://github.com/jayhonglee/LeetCode/tree/master/0337-house-robber-iii) |
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
+| [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
 ## Binary Tree
 |  |
 | ------- |
@@ -282,6 +284,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0145-binary-tree-postorder-traversal](https://github.com/jayhonglee/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0337-house-robber-iii](https://github.com/jayhonglee/LeetCode/tree/master/0337-house-robber-iii) |
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
+| [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
 ## Divide and Conquer
 |  |
 | ------- |
