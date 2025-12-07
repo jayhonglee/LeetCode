@@ -28,6 +28,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0692-top-k-frequent-words](https://github.com/jayhonglee/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
+| [0997-find-the-town-judge](https://github.com/jayhonglee/LeetCode/tree/master/0997-find-the-town-judge) |
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/jayhonglee/LeetCode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
@@ -108,6 +109,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0692-top-k-frequent-words](https://github.com/jayhonglee/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
+| [0997-find-the-town-judge](https://github.com/jayhonglee/LeetCode/tree/master/0997-find-the-town-judge) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/jayhonglee/LeetCode/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
 | [2634-minimum-common-value](https://github.com/jayhonglee/LeetCode/tree/master/2634-minimum-common-value) |
@@ -182,6 +184,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | ------- |
 | [0684-redundant-connection](https://github.com/jayhonglee/LeetCode/tree/master/0684-redundant-connection) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0997-find-the-town-judge](https://github.com/jayhonglee/LeetCode/tree/master/0997-find-the-town-judge) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Minimum Spanning Tree
 |  |
