@@ -58,7 +58,5 @@ var pathSum = function(root, targetSum) {
     const prefixSum = new Map([[0,1]]);
     preOrderDfs(root, prefixSum, 0);
 
-    console.log(ans);
-
     return ans;
 };
