@@ -30,11 +30,11 @@ var pathSum = function(root, targetSum) {
     // return postOrderDFS(root, targetSum) + pathSum(root?.left, targetSum) + pathSum(root?.right, targetSum);
 
     // Optimal solution:
-    // Time Complexity: O(n + (2^(H-1) * H))
+    // Time Complexity: O(n)
     // Intuition: 
-    //  1) Use prefix sum data structure to validate paths.
+    //  1) Use prefix sum hashmap data structure.
     //  2) Use DFS to iterate through all nodes of the given tree.
-    //  3) When at a leaf, update number of paths using prefix sum. 
+    //  3) At each node, use the prefix sum hashmap to see how many valide paths exist that end at the current node and update ans variable. 
 
     const preOrderDfs = (node, prefixSum, prev) => {
         if(!node) return;
@@ -46,10 +46,8 @@ var pathSum = function(root, targetSum) {
         if(!prefixSum.has(currSum)) prefixSum.set(currSum, 0);
         prefixSum.set(currSum, prefixSum.get(currSum) + 1);
 
-        prev = prev + node.val;
-
-        preOrderDfs(node.left, prefixSum, prev);
-        preOrderDfs(node.right, prefixSum, prev);
+        preOrderDfs(node.left, prefixSum, currSum);
+        preOrderDfs(node.right, prefixSum, currSum);
 
         prefixSum.set(currSum, prefixSum.get(currSum) - 1);
     }
