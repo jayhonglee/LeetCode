@@ -281,6 +281,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0145-binary-tree-postorder-traversal](https://github.com/jayhonglee/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0337-house-robber-iii](https://github.com/jayhonglee/LeetCode/tree/master/0337-house-robber-iii) |
 | [0437-path-sum-iii](https://github.com/jayhonglee/LeetCode/tree/master/0437-path-sum-iii) |
+| [0450-delete-node-in-a-bst](https://github.com/jayhonglee/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
 ## Binary Tree
@@ -293,6 +294,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0145-binary-tree-postorder-traversal](https://github.com/jayhonglee/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0337-house-robber-iii](https://github.com/jayhonglee/LeetCode/tree/master/0337-house-robber-iii) |
 | [0437-path-sum-iii](https://github.com/jayhonglee/LeetCode/tree/master/0437-path-sum-iii) |
+| [0450-delete-node-in-a-bst](https://github.com/jayhonglee/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
 ## Divide and Conquer
@@ -303,6 +305,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/jayhonglee/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 ## Matrix
 |  |
