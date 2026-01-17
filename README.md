@@ -34,6 +34,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/jayhonglee/LeetCode/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jayhonglee/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/jayhonglee/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [1961-maximum-ice-cream-bars](https://github.com/jayhonglee/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/jayhonglee/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2139-detect-squares](https://github.com/jayhonglee/LeetCode/tree/master/2139-detect-squares) |
@@ -157,6 +158,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0388-longest-absolute-file-path](https://github.com/jayhonglee/LeetCode/tree/master/0388-longest-absolute-file-path) |
 | [0678-valid-parenthesis-string](https://github.com/jayhonglee/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/jayhonglee/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [2227-sum-of-subarray-ranges](https://github.com/jayhonglee/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 ## Recursion
 |  |
@@ -270,6 +272,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
+| [1944-number-of-visible-people-in-a-queue](https://github.com/jayhonglee/LeetCode/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [2227-sum-of-subarray-ranges](https://github.com/jayhonglee/LeetCode/tree/master/2227-sum-of-subarray-ranges) |
 ## Tree
 |  |
