@@ -3,6 +3,7 @@
  * @return {boolean}
  */
 var equationsPossible = function(equations) {
+    // Graph BFS Solution (Can be further optimized with Union-Find Solution)
     const adjacentNeighbors = new Map();
 
     // Iterate over the "==" equations
