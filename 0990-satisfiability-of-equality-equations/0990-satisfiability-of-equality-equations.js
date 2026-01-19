@@ -32,28 +32,24 @@ var equationsPossible = function(equations) {
         if(sign === "=") continue;
 
         // Ensure the two nodes are not in the same graph
-        // for(const [element, find] of [[x,y], [y,x]]){
-            const element = x;
-            const find = y;
-            const isSeen = new Set();
-            let queue = [element];
+        const isSeen = new Set();
+        let queue = [x];
 
-            while(queue.length) {
-                const nextQueue = [];
+        while(queue.length) {
+            const nextQueue = [];
 
-                for(const element of queue) {
-                    if(element === find) return false;
-                    isSeen.add(element);
+            for(const element of queue) {
+                if(element === y) return false;
+                isSeen.add(element);
 
-                    const neighbors = adjacentNeighbors.get(element) || [];
-                    for(const neighbor of neighbors) {
-                        if(!isSeen.has(neighbor)) nextQueue.push(neighbor);
-                    }
+                const neighbors = adjacentNeighbors.get(element) || [];
+                for(const neighbor of neighbors) {
+                    if(!isSeen.has(neighbor)) nextQueue.push(neighbor);
                 }
-
-                queue = nextQueue;
             }
-        // }
+
+            queue = nextQueue;
+        }
     }
 
     return true;
