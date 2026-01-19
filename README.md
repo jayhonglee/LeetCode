@@ -28,6 +28,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0692-top-k-frequent-words](https://github.com/jayhonglee/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0876-hand-of-straights](https://github.com/jayhonglee/LeetCode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/jayhonglee/LeetCode/tree/master/0883-car-fleet) |
+| [0990-satisfiability-of-equality-equations](https://github.com/jayhonglee/LeetCode/tree/master/0990-satisfiability-of-equality-equations) |
 | [0997-find-the-town-judge](https://github.com/jayhonglee/LeetCode/tree/master/0997-find-the-town-judge) |
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/jayhonglee/LeetCode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
@@ -76,6 +77,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0692-top-k-frequent-words](https://github.com/jayhonglee/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/jayhonglee/LeetCode/tree/master/0768-partition-labels) |
 | [0857-positions-of-large-groups](https://github.com/jayhonglee/LeetCode/tree/master/0857-positions-of-large-groups) |
+| [0990-satisfiability-of-equality-equations](https://github.com/jayhonglee/LeetCode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1884-minimum-changes-to-make-alternating-binary-string](https://github.com/jayhonglee/LeetCode/tree/master/1884-minimum-changes-to-make-alternating-binary-string) |
 | [2713-find-the-divisibility-array-of-a-string](https://github.com/jayhonglee/LeetCode/tree/master/2713-find-the-divisibility-array-of-a-string) |
 ## Dynamic Programming
@@ -360,4 +362,12 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [2449-maximum-number-of-robots-within-budget](https://github.com/jayhonglee/LeetCode/tree/master/2449-maximum-number-of-robots-within-budget) |
+## Union-Find
+|  |
+| ------- |
+| [0990-satisfiability-of-equality-equations](https://github.com/jayhonglee/LeetCode/tree/master/0990-satisfiability-of-equality-equations) |
+## Graph Theory
+|  |
+| ------- |
+| [0990-satisfiability-of-equality-equations](https://github.com/jayhonglee/LeetCode/tree/master/0990-satisfiability-of-equality-equations) |
 <!---LeetCode Topics End-->
