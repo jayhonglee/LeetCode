@@ -32,7 +32,9 @@ var equationsPossible = function(equations) {
         if(sign === "=") continue;
 
         // Ensure the two nodes are not in the same graph
-        for(const [element, find] of [[x,y], [y,x]]){
+        // for(const [element, find] of [[x,y], [y,x]]){
+            const element = x;
+            const find = y;
             const isSeen = new Set();
             let queue = [element];
 
@@ -51,7 +53,7 @@ var equationsPossible = function(equations) {
 
                 queue = nextQueue;
             }
-        }
+        // }
     }
 
     return true;
