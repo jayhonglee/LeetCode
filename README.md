@@ -64,6 +64,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | ------- |
 | [0010-regular-expression-matching](https://github.com/jayhonglee/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jayhonglee/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0076-minimum-window-substring](https://github.com/jayhonglee/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/jayhonglee/LeetCode/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/jayhonglee/LeetCode/tree/master/0097-interleaving-string) |
 | [0131-palindrome-partitioning](https://github.com/jayhonglee/LeetCode/tree/master/0131-palindrome-partitioning) |
@@ -102,6 +103,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Hash Table
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/jayhonglee/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0160-intersection-of-two-linked-lists](https://github.com/jayhonglee/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/jayhonglee/LeetCode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/jayhonglee/LeetCode/tree/master/0205-isomorphic-strings) |
@@ -321,6 +323,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/jayhonglee/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/jayhonglee/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/jayhonglee/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [2449-maximum-number-of-robots-within-budget](https://github.com/jayhonglee/LeetCode/tree/master/2449-maximum-number-of-robots-within-budget) |
