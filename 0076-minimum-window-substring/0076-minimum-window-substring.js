@@ -31,8 +31,6 @@ var minWindow = function(s, t) {
             if(needMap.get(rightChar) >= 0) need--;
         }
 
-        
-
         // While window valid, left pointer shrinks window
         while(need === 0) {
             // Update ans
