@@ -31,6 +31,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0990-satisfiability-of-equality-equations](https://github.com/jayhonglee/LeetCode/tree/master/0990-satisfiability-of-equality-equations) |
 | [0997-find-the-town-judge](https://github.com/jayhonglee/LeetCode/tree/master/0997-find-the-town-judge) |
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
+| [1020-number-of-enclaves](https://github.com/jayhonglee/LeetCode/tree/master/1020-number-of-enclaves) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/jayhonglee/LeetCode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
 | [1330-longest-arithmetic-subsequence-of-given-difference](https://github.com/jayhonglee/LeetCode/tree/master/1330-longest-arithmetic-subsequence-of-given-difference) |
@@ -247,6 +248,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0684-redundant-connection](https://github.com/jayhonglee/LeetCode/tree/master/0684-redundant-connection) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
+| [1020-number-of-enclaves](https://github.com/jayhonglee/LeetCode/tree/master/1020-number-of-enclaves) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -254,6 +256,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0463-island-perimeter](https://github.com/jayhonglee/LeetCode/tree/master/0463-island-perimeter) |
 | [0684-redundant-connection](https://github.com/jayhonglee/LeetCode/tree/master/0684-redundant-connection) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1020-number-of-enclaves](https://github.com/jayhonglee/LeetCode/tree/master/1020-number-of-enclaves) |
 ## Trie
 |  |
 | ------- |
@@ -320,6 +323,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0221-maximal-square](https://github.com/jayhonglee/LeetCode/tree/master/0221-maximal-square) |
 | [0417-pacific-atlantic-water-flow](https://github.com/jayhonglee/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/jayhonglee/LeetCode/tree/master/0463-island-perimeter) |
+| [1020-number-of-enclaves](https://github.com/jayhonglee/LeetCode/tree/master/1020-number-of-enclaves) |
 ## Sliding Window
 |  |
 | ------- |
@@ -369,6 +373,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 |  |
 | ------- |
 | [0990-satisfiability-of-equality-equations](https://github.com/jayhonglee/LeetCode/tree/master/0990-satisfiability-of-equality-equations) |
+| [1020-number-of-enclaves](https://github.com/jayhonglee/LeetCode/tree/master/1020-number-of-enclaves) |
 ## Graph Theory
 |  |
 | ------- |
