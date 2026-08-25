@@ -249,6 +249,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
 | [1020-number-of-enclaves](https://github.com/jayhonglee/LeetCode/tree/master/1020-number-of-enclaves) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jayhonglee/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -257,6 +258,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0684-redundant-connection](https://github.com/jayhonglee/LeetCode/tree/master/0684-redundant-connection) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jayhonglee/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1020-number-of-enclaves](https://github.com/jayhonglee/LeetCode/tree/master/1020-number-of-enclaves) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jayhonglee/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 ## Trie
 |  |
 | ------- |
@@ -294,6 +296,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0450-delete-node-in-a-bst](https://github.com/jayhonglee/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jayhonglee/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -307,6 +310,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0450-delete-node-in-a-bst](https://github.com/jayhonglee/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jayhonglee/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 ## Divide and Conquer
 |  |
 | ------- |
