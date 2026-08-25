@@ -231,6 +231,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [1019-squares-of-a-sorted-array](https://github.com/jayhonglee/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/jayhonglee/LeetCode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1184-car-pooling](https://github.com/jayhonglee/LeetCode/tree/master/1184-car-pooling) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/jayhonglee/LeetCode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1961-maximum-ice-cream-bars](https://github.com/jayhonglee/LeetCode/tree/master/1961-maximum-ice-cream-bars) |
 ## Depth-First Search
 |  |
@@ -250,6 +251,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
 | [1020-number-of-enclaves](https://github.com/jayhonglee/LeetCode/tree/master/1020-number-of-enclaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jayhonglee/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/jayhonglee/LeetCode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -297,6 +299,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jayhonglee/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/jayhonglee/LeetCode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 ## Binary Tree
 |  |
 | ------- |
@@ -311,6 +314,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0872-leaf-similar-trees](https://github.com/jayhonglee/LeetCode/tree/master/0872-leaf-similar-trees) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/jayhonglee/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/jayhonglee/LeetCode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -321,6 +325,7 @@ Collection of LeetCode questions solved - Created using [LeetHub](https://github
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/jayhonglee/LeetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/jayhonglee/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
+| [1305-all-elements-in-two-binary-search-trees](https://github.com/jayhonglee/LeetCode/tree/master/1305-all-elements-in-two-binary-search-trees) |
 ## Matrix
 |  |
 | ------- |
